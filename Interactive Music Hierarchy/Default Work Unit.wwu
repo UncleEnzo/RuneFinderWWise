@@ -399,7 +399,6 @@
 						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
-				<WorkUnit Name="TestUnit" ID="{8E8D2B13-1B2C-44A4-A274-484213656E72}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

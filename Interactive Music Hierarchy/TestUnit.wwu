@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{8E8D2B13-1B2C-44A4-A274-484213656E72}" SchemaVersion="97" RootDocumentID="{6932D00C-C62D-40FB-B865-9FF6B498743C}">
-	<InteractiveMusic>
-		<WorkUnit Name="TestUnit" ID="{8E8D2B13-1B2C-44A4-A274-484213656E72}" OwnerID="{6932D00C-C62D-40FB-B865-9FF6B498743C}" PersistMode="Nested"/>
-	</InteractiveMusic>
-</WwiseDocument>
