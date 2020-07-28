@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="97">
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1595968612" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1595968612" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Triggers\Default Work Unit.wwu" DateLow="1595968612" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Switches\Default Work Unit.wwu" DateLow="1595968612" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\States\Default Work Unit.wwu" DateLow="1595968612" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1595968612" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\SoundBanks\Default Work Unit.wwu" DateLow="1595968612" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\RuneFinder.wproj" DateLow="1595968612" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\RuneFinder.Nick Evelson.wsettings" DateLow="1595968612" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Queries\Factory Queries.wwu" DateLow="1595968612" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Queries\Default Work Unit.wwu" DateLow="1595968612" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Presets\Factory Spatial Audio.wwu" DateLow="1595968612" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Presets\Factory Reflect.wwu" DateLow="1595968612" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Presets\Default Work Unit.wwu" DateLow="1595968612" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Modulators\Default Work Unit.wwu" DateLow="1595968611" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1595968611" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1595968611" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1595968611" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Game Parameters\Default Work Unit.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Events\Default Work Unit.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Effects\Factory Reflect.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Effects\Factory McDSP Effects.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Effects\Factory Mastering Suite.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Effects\Factory iZotope Filters.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Effects\Factory iZotope Dynamics.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Effects\Factory iZotope Delay.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Effects\Factory iZotope Box Modeler.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Effects\Factory Effects.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Effects\Factory Auro Headphone.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Effects\Default Work Unit.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Conversion Settings\Default Work Unit.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Audio Devices\Default Work Unit.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Attenuations\Default Work Unit.wwu" DateLow="1595968610" DateHigh="0"/>
+	<ValidationCacheItem File="D:\TESTINGWWISEGIT\RuneFinderWwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1595968610" DateHigh="0"/>
 	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1595765436" DateHigh="0"/>
 	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Virtual Acoustics\Default Work Unit.wwu" DateLow="1595780466" DateHigh="0"/>
 	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Triggers\Default Work Unit.wwu" DateLow="1595780466" DateHigh="0"/>
