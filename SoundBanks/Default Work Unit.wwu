@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E7723CAB-140B-4965-8D29-2634D082FFAA}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{E7723CAB-140B-4965-8D29-2634D082FFAA}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main_SoundBank" ID="{710ED1A9-5855-4D10-8740-CCD22126BA24}">
+					<ObjectInclusionList>
+						<ObjectRef Name="DeathAzteca_Combat_2_" ID="{D6C2F3A5-B9C5-43B7-A6E5-963D02990EFE}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Game_Music_State" ID="{0A750B67-45B6-47DB-9F93-BD7228279538}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SpawnAzteca_Combat_2_" ID="{4203F270-8720-4B46-BDD4-477EEEA6050C}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="DeathAzteca_Combat_2_" ID="{D6C2F3A5-B9C5-43B7-A6E5-963D02990EFE}">
+					<ChildrenList>
+						<Action Name="" ID="{22FF5ADE-F202-40D4-8769-0336DD54D04F}" ShortID="17173095">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DeathAzteca_Combat(2)" ID="{9113AA80-7490-4C96-818B-0EBFD7BA54EC}" WorkUnitID="{ADF371BF-3DFE-46B0-B10A-68C2F5425D37}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SpawnAzteca_Combat_2_" ID="{4203F270-8720-4B46-BDD4-477EEEA6050C}">
+					<ChildrenList>
+						<Action Name="" ID="{93FD3B51-9A0C-4327-A8EC-01A0EBB71E5C}" ShortID="121755154">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SpawnAzteca_Combat(2)" ID="{5110EC03-DBA9-4EB7-958A-0687C2A0AB39}" WorkUnitID="{ADF371BF-3DFE-46B0-B10A-68C2F5425D37}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Game_Music_State" ID="{0A750B67-45B6-47DB-9F93-BD7228279538}">
+					<ChildrenList>
+						<Action Name="" ID="{DAD1CE4A-9169-4C29-B562-38DB0E3C8796}" ShortID="355139061">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game_Music_Switch" ID="{12DDB704-5A74-4047-99FE-C38AFDD95279}" WorkUnitID="{6932D00C-C62D-40FB-B865-9FF6B498743C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

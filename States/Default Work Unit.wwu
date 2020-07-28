@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{323CD232-D099-4E64-9940-7B440062847F}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{323CD232-D099-4E64-9940-7B440062847F}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Music" ID="{62815647-0A40-4DB9-A28E-92A946C397DC}">
+					<ChildrenList>
+						<State Name="None" ID="{9FABED2B-D38B-4F3F-9032-2F24A86BC46A}"/>
+						<State Name="Exploration_Music" ID="{735D2AFA-DC9B-4637-AB75-22809CE6F55A}"/>
+						<State Name="Combat_Music" ID="{CB5AE1B1-2C6E-4730-ABF3-E07B3A2ADBA6}"/>
+						<State Name="BossFight_Music" ID="{65543472-A23E-4E61-BA3B-2A23C0396A14}"/>
+						<State Name="BossDefeated" ID="{DDF3C353-104F-4E13-B761-B6BD2227815A}"/>
+						<State Name="StartMenu_Music" ID="{5517FC1B-E803-4466-82DE-C6F036982574}"/>
+						<State Name="Credits_Music" ID="{315840B3-997E-48CD-AA51-8F319A7E6AFC}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="UI" ID="{CBF61E89-4F50-4453-B62E-6D38A7DD8AC2}">
+					<ChildrenList>
+						<State Name="None" ID="{88FC2951-596D-4CB2-8260-CBBE0AB1B916}"/>
+						<State Name="Win" ID="{B958475E-2CDA-44B1-944B-81FD45CFD693}"/>
+						<State Name="Lose" ID="{8179DB41-1B8D-4880-95FD-A119569B75C2}"/>
+						<State Name="Inventory" ID="{3F24C6C4-0FA6-4C76-A3F3-5E8AFA6FFE02}"/>
+						<State Name="PauseMenu" ID="{A2F62A0B-546D-4B64-AE9A-252030FFEF0A}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

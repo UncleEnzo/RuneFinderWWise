@@ -1,0 +1,30 @@
+Event	ID	Name			Wwise Object Path	Notes
+	693798761	SpawnAzteca_Combat_2_			\Default Work Unit\SpawnAzteca_Combat_2_	
+	2616822209	Game_Music_State			\Default Work Unit\Game_Music_State	
+	3563121554	DeathAzteca_Combat_2_			\Default Work Unit\DeathAzteca_Combat_2_	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1551306167	UI			\Default Work Unit\UI	
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	203281819	Inventory	UI			
+	221232726	Lose	UI			
+	748895195	None	UI			
+	979765101	Win	UI			
+	3494343696	PauseMenu	UI			
+	748895195	None	Music			
+	1441828780	Exploration_Music	Music			
+	1522595433	Credits_Music	Music			
+	1932095129	Combat_Music	Music			
+	2305261964	BossDefeated	Music			
+	3441491508	BossFight_Music	Music			
+	3972664678	StartMenu_Music	Music			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	330486091	DeathAzteca_Combat(2)	D:\_RuneFinderWwise\RuneFinder\.cache\iOS\SFX\Death_Azteca_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Azteca\DeathAzteca_Combat(2)		349192
+	375305240	StartMenuMusic	D:\_RuneFinderWwise\RuneFinder\.cache\iOS\SFX\StartMenuMusic_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music_Switch\StartMenuMusic\StartMenuMusic		9179200
+	562575462	CombatL1Music	D:\_RuneFinderWwise\RuneFinder\.cache\iOS\SFX\CombatL1Music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music_Switch\CombatL1Music\CombatL1Music		18003520
+	704451003	SpawnAzteca_Combat(2)	D:\_RuneFinderWwise\RuneFinder\.cache\iOS\SFX\Spawn_Azteca_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Azteca\SpawnAzteca_Combat(2)		336064
+	956761082	InventoryL1Music	D:\_RuneFinderWwise\RuneFinder\.cache\iOS\SFX\InventoryL1Music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music_Switch\InventoryL1Music\InventoryL1Music		12713536
+
