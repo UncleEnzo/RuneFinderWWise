@@ -5,6 +5,7 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="E:\FlowAD\Sound Design\Ableton\RuneFinder Project\Output\"/>
 				<Property Name="Event Action List\{0A750B67-45B6-47DB-9F93-BD7228279538}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{389F4F17-4ED8-4825-9936-CDAC5D04790C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4203F270-8720-4B46-BDD4-477EEEA6050C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D6C2F3A5-B9C5-43B7-A6E5-963D02990EFE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
@@ -77,7 +78,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
 				<Property Name="RTPC\GameParameterSimValue\{CCBD94EA-3791-4C30-B9B4-A0F702181C74}" Type="Real64" Value="100"/>
-				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value=""/>
+				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value="qzxy5wsUZUmNKSY00IL/qg=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>

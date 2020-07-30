@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>D:\_RuneFinderWwise\RuneFinder\</ProjectRoot>
-		<SourceFilesRoot>D:\_RuneFinderWwise\RuneFinder\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>D:\_RuneFinderWwise\RuneFinder\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\</ProjectRoot>
+		<SourceFilesRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\_RuneFinderWwise\RuneFinder\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -25,55 +25,52 @@
 					<IncludedMemoryFiles>
 						<File Id="330486091" Language="SFX">
 							<ShortName>Death_Azteca.wav</ShortName>
-							<Path>SFX\Death_Azteca_10C4C929.wem</Path>
+							<Path>SFX\Death_Azteca_644E0A11.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2616822209" Name="Game_Music_State" ObjectPath="\Events\Default Work Unit\Game_Music_State" DurationType="Infinite">
+				<Event Id="536353522" Name="Game_Music_Switch" ObjectPath="\Events\Default Work Unit\Game_Music_Switch" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="375305240" Language="SFX">
 							<ShortName>StartMenuMusic.wav</ShortName>
-							<Path>SFX\StartMenuMusic_D79FB2B7.wem</Path>
+							<Path>SFX\StartMenuMusic_37657DA8.wem</Path>
 						</File>
 						<File Id="562575462" Language="SFX">
 							<ShortName>CombatL1Music.wav</ShortName>
-							<Path>SFX\CombatL1Music_D79FB2B7.wem</Path>
+							<Path>SFX\CombatL1Music_37657DA8.wem</Path>
 						</File>
 						<File Id="956761082" Language="SFX">
 							<ShortName>InventoryL1Music.wav</ShortName>
-							<Path>SFX\InventoryL1Music_D79FB2B7.wem</Path>
+							<Path>SFX\InventoryL1Music_37657DA8.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{5517FC1B-E803-4466-82DE-C6F036982574}">
+						<SwitchContainer SwitchValue="{6F36D582-974D-4A5C-9378-4C5880014862}">
 							<Children>
-								<SwitchContainer SwitchValue="{CBF61E89-4F50-4453-B62E-6D38A7DD8AC2}">
-									<Media>
-										<File Id="375305240"/>
-									</Media>
-								</SwitchContainer>
-							</Children>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{62815647-0A40-4DB9-A28E-92A946C397DC}">
-							<Children>
-								<SwitchContainer SwitchValue="{3F24C6C4-0FA6-4C76-A3F3-5E8AFA6FFE02}">
-									<Media>
-										<File Id="956761082"/>
-									</Media>
-								</SwitchContainer>
-							</Children>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{735D2AFA-DC9B-4637-AB75-22809CE6F55A}">
-							<Children>
-								<SwitchContainer SwitchValue="{CBF61E89-4F50-4453-B62E-6D38A7DD8AC2}">
+								<SwitchContainer SwitchValue="{CB5AE1B1-2C6E-4730-ABF3-E07B3A2ADBA6}">
 									<Media>
 										<File Id="562575462"/>
 									</Media>
 								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{CB5AE1B1-2C6E-4730-ABF3-E07B3A2ADBA6}">
-							<Children/>
+						<SwitchContainer SwitchValue="{3F24C6C4-0FA6-4C76-A3F3-5E8AFA6FFE02}">
+							<Children>
+								<SwitchContainer SwitchValue="{9FABED2B-D38B-4F3F-9032-2F24A86BC46A}">
+									<Media>
+										<File Id="956761082"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{22014237-047F-42C7-8FAE-ED454F5122B3}">
+							<Children>
+								<SwitchContainer SwitchValue="{9FABED2B-D38B-4F3F-9032-2F24A86BC46A}">
+									<Media>
+										<File Id="375305240"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
@@ -81,7 +78,7 @@
 					<IncludedMemoryFiles>
 						<File Id="704451003" Language="SFX">
 							<ShortName>Spawn_Azteca.wav</ShortName>
-							<Path>SFX\Spawn_Azteca_10C4C929.wem</Path>
+							<Path>SFX\Spawn_Azteca_644E0A11.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -90,10 +87,10 @@
 				<StateGroup Id="1551306167" Name="UI" ObjectPath="\States\Default Work Unit\UI">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\UI\None"/>
-						<State Id="979765101" Name="Win" ObjectPath="\States\Default Work Unit\UI\Win"/>
-						<State Id="221232726" Name="Lose" ObjectPath="\States\Default Work Unit\UI\Lose"/>
 						<State Id="203281819" Name="Inventory" ObjectPath="\States\Default Work Unit\UI\Inventory"/>
 						<State Id="3494343696" Name="PauseMenu" ObjectPath="\States\Default Work Unit\UI\PauseMenu"/>
+						<State Id="3944636910" Name="StartMenu" ObjectPath="\States\Default Work Unit\UI\StartMenu"/>
+						<State Id="89505537" Name="GamePlay" ObjectPath="\States\Default Work Unit\UI\GamePlay"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music">
@@ -103,8 +100,9 @@
 						<State Id="1932095129" Name="Combat_Music" ObjectPath="\States\Default Work Unit\Music\Combat_Music"/>
 						<State Id="3441491508" Name="BossFight_Music" ObjectPath="\States\Default Work Unit\Music\BossFight_Music"/>
 						<State Id="2305261964" Name="BossDefeated" ObjectPath="\States\Default Work Unit\Music\BossDefeated"/>
-						<State Id="3972664678" Name="StartMenu_Music" ObjectPath="\States\Default Work Unit\Music\StartMenu_Music"/>
 						<State Id="1522595433" Name="Credits_Music" ObjectPath="\States\Default Work Unit\Music\Credits_Music"/>
+						<State Id="221232726" Name="Lose" ObjectPath="\States\Default Work Unit\Music\Lose"/>
+						<State Id="979765101" Name="Win" ObjectPath="\States\Default Work Unit\Music\Win"/>
 					</States>
 				</StateGroup>
 			</StateGroups>

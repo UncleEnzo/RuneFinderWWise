@@ -3,18 +3,19 @@ State Group	ID	Name			Wwise Object Path	Notes
 	3991942870	Music			\Default Work Unit\Music	
 
 State	ID	Name	State Group			Notes
+	89505537	GamePlay	UI			
 	203281819	Inventory	UI			
-	221232726	Lose	UI			
 	748895195	None	UI			
-	979765101	Win	UI			
 	3494343696	PauseMenu	UI			
+	3944636910	StartMenu	UI			
+	221232726	Lose	Music			
 	748895195	None	Music			
+	979765101	Win	Music			
 	1441828780	Exploration_Music	Music			
 	1522595433	Credits_Music	Music			
 	1932095129	Combat_Music	Music			
 	2305261964	BossDefeated	Music			
 	3441491508	BossFight_Music	Music			
-	3972664678	StartMenu_Music	Music			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Reflect Acoustic Textures\Textures\Brick	
