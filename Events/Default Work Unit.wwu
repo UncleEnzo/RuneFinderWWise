@@ -25,17 +25,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Game_Music_State" ID="{0A750B67-45B6-47DB-9F93-BD7228279538}">
-					<ChildrenList>
-						<Action Name="" ID="{DAD1CE4A-9169-4C29-B562-38DB0E3C8796}" ShortID="355139061">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Game_Music_Switch" ID="{12DDB704-5A74-4047-99FE-C38AFDD95279}" WorkUnitID="{6932D00C-C62D-40FB-B865-9FF6B498743C}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

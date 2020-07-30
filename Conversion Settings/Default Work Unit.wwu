@@ -3,7 +3,7 @@
 	<Conversions>
 		<WorkUnit Name="Default Work Unit" ID="{1F786758-2F03-4DAB-B645-262D8DA22D86}" PersistMode="Standalone">
 			<ChildrenList>
-				<Conversion Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+				<Conversion Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
 					<PropertyList>
 						<Property Name="Channels" Type="int32">
 							<ValueList>
@@ -37,6 +37,11 @@
 								<Value Platform="Android">0</Value>
 							</ValueList>
 						</Property>
+						<Property Name="SRConversionQuality" Type="int32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
 						<Property Name="SampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Mac">0</Value>
@@ -48,16 +53,74 @@
 					</PropertyList>
 					<ConversionPluginInfoList>
 						<ConversionPluginInfo Platform="Mac">
-							<ConversionPlugin Name="" ID="{6A985DBB-56A9-4282-92DF-1472190A79F0}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+							<ConversionPlugin Name="" ID="{1F963349-7F5B-4A5D-AC03-05388A1BBF30}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Windows">
-							<ConversionPlugin Name="" ID="{832AFFEB-EC8E-4150-B755-420C53CC01D7}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+							<ConversionPlugin Name="" ID="{ED958989-6984-41BF-925E-40DDB381D5C0}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="iOS">
-							<ConversionPlugin Name="" ID="{BD3C19DC-B896-4A89-98C1-3F6F084FDE0B}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+							<ConversionPlugin Name="" ID="{EE14CD3E-1011-48C9-BC95-5887C84D5454}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Android">
-							<ConversionPlugin Name="" ID="{1C6418BC-E476-42DC-A7E4-555D10B93D90}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+							<ConversionPlugin Name="" ID="{D3F5D33F-C402-4484-BBC3-CD365AB427B8}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+						</ConversionPluginInfo>
+					</ConversionPluginInfoList>
+				</Conversion>
+				<Conversion Name="Sounds_Conversion Settings" ID="{78796F7D-1053-4A36-B176-A96994FE3DBD}">
+					<PropertyList>
+						<Property Name="Channels" Type="int32">
+							<ValueList>
+								<Value Platform="Mac">4</Value>
+								<Value Platform="Windows">4</Value>
+								<Value Platform="iOS">4</Value>
+								<Value Platform="Android">4</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LRMix" Type="Real64">
+							<ValueList>
+								<Value Platform="Mac">0</Value>
+								<Value Platform="Windows">0</Value>
+								<Value Platform="iOS">0</Value>
+								<Value Platform="Android">0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MaxSampleRate" Type="int32">
+							<ValueList>
+								<Value Platform="Mac">0</Value>
+								<Value Platform="Windows">0</Value>
+								<Value Platform="iOS">44100</Value>
+								<Value Platform="Android">44100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MinSampleRate" Type="int32">
+							<ValueList>
+								<Value Platform="Mac">0</Value>
+								<Value Platform="Windows">0</Value>
+								<Value Platform="iOS">0</Value>
+								<Value Platform="Android">0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SampleRate" Type="int32">
+							<ValueList>
+								<Value Platform="Mac">0</Value>
+								<Value Platform="Windows">0</Value>
+								<Value Platform="iOS">0</Value>
+								<Value Platform="Android">0</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ConversionPluginInfoList>
+						<ConversionPluginInfo Platform="Mac">
+							<ConversionPlugin Name="" ID="{27D4067C-BC21-4010-8FA5-9EA6036256B1}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
+						<ConversionPluginInfo Platform="Windows">
+							<ConversionPlugin Name="" ID="{8480F8CB-9A78-4DAE-8134-82DD56E4F6B0}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
+						<ConversionPluginInfo Platform="iOS">
+							<ConversionPlugin Name="" ID="{F9398497-640E-4434-AEA4-04FC5C829839}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
+						<ConversionPluginInfo Platform="Android">
+							<ConversionPlugin Name="" ID="{D614D2B5-7682-43B7-BE74-96FF4584CC35}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>

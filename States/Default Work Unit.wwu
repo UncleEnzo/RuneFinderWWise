@@ -10,17 +10,18 @@
 						<State Name="Combat_Music" ID="{CB5AE1B1-2C6E-4730-ABF3-E07B3A2ADBA6}"/>
 						<State Name="BossFight_Music" ID="{65543472-A23E-4E61-BA3B-2A23C0396A14}"/>
 						<State Name="BossDefeated" ID="{DDF3C353-104F-4E13-B761-B6BD2227815A}"/>
-						<State Name="StartMenu_Music" ID="{5517FC1B-E803-4466-82DE-C6F036982574}"/>
 						<State Name="Credits_Music" ID="{315840B3-997E-48CD-AA51-8F319A7E6AFC}"/>
+						<State Name="Lose" ID="{7F8722C6-7ED5-4D0D-8C5D-A0F3E9C624E3}"/>
+						<State Name="Win" ID="{A3970C8F-D451-40B0-BD77-7D5B26EC0394}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="UI" ID="{CBF61E89-4F50-4453-B62E-6D38A7DD8AC2}">
 					<ChildrenList>
 						<State Name="None" ID="{88FC2951-596D-4CB2-8260-CBBE0AB1B916}"/>
-						<State Name="Win" ID="{B958475E-2CDA-44B1-944B-81FD45CFD693}"/>
-						<State Name="Lose" ID="{8179DB41-1B8D-4880-95FD-A119569B75C2}"/>
 						<State Name="Inventory" ID="{3F24C6C4-0FA6-4C76-A3F3-5E8AFA6FFE02}"/>
 						<State Name="PauseMenu" ID="{A2F62A0B-546D-4B64-AE9A-252030FFEF0A}"/>
+						<State Name="StartMenu" ID="{22014237-047F-42C7-8FAE-ED454F5122B3}"/>
+						<State Name="GamePlay" ID="{6F36D582-974D-4A5C-9378-4C5880014862}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
