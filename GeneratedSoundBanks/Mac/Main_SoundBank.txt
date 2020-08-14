@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	536353522	Game_Music_Switch			\Default Work Unit\Game_Music_Switch	
 	693798761	SpawnAzteca_Combat_2_			\Default Work Unit\SpawnAzteca_Combat_2_	
 	3563121554	DeathAzteca_Combat_2_			\Default Work Unit\DeathAzteca_Combat_2_	
+	3738323421	Stop_Game_Music_Switch			\Default Work Unit\Stop_Game_Music_Switch	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	1551306167	UI			\Default Work Unit\UI	

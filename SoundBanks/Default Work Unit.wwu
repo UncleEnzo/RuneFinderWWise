@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="DeathAzteca_Combat_2_" ID="{D6C2F3A5-B9C5-43B7-A6E5-963D02990EFE}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Game_Music_Switch" ID="{389F4F17-4ED8-4825-9936-CDAC5D04790C}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Game_Music_Switch" ID="{97A8E8C8-04DB-4B32-89EB-175F4C9A5FAD}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SpawnAzteca_Combat_2_" ID="{4203F270-8720-4B46-BDD4-477EEEA6050C}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

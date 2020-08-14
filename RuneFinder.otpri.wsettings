@@ -7,6 +7,7 @@
 				<Property Name="Event Action List\{0A750B67-45B6-47DB-9F93-BD7228279538}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{389F4F17-4ED8-4825-9936-CDAC5D04790C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4203F270-8720-4B46-BDD4-477EEEA6050C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{97A8E8C8-04DB-4B32-89EB-175F4C9A5FAD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D6C2F3A5-B9C5-43B7-A6E5-963D02990EFE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -31,7 +32,7 @@
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="RKMmdA+bm0aZfcSMl1WavYx21OYU/TFHhccA1D4fKec="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="qdEOcVVYEE2HQMzSISa6JA=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="Interactive Music\x64_{47BBD73F-33D5-4122-A313-5352A87363A4} - SegmentEditorZoomInfo" Type="string" Value="AgAAAAAA8D8AAAAAAADwP7gZ3x8pGjNAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{A5DC4126-79BF-48E1-9F94-E8C3772FC88D} - SegmentEditorZoomInfo" Type="string" Value="plSYeD9y6j8AAAAAAADwPz0MpChmlStAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>

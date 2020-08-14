@@ -82,6 +82,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3738323421" Name="Stop_Game_Music_Switch" ObjectPath="\Events\Default Work Unit\Stop_Game_Music_Switch" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<StateGroups>
 				<StateGroup Id="1551306167" Name="UI" ObjectPath="\States\Default Work Unit\UI">

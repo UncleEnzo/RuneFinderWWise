@@ -36,6 +36,21 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_Game_Music_Switch" ID="{97A8E8C8-04DB-4B32-89EB-175F4C9A5FAD}">
+					<ChildrenList>
+						<Action Name="" ID="{95C6BEB1-F265-472A-83F2-92A7869FF1F6}" ShortID="46287685">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game_Music_Switch" ID="{12DDB704-5A74-4047-99FE-C38AFDD95279}" WorkUnitID="{6932D00C-C62D-40FB-B865-9FF6B498743C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
