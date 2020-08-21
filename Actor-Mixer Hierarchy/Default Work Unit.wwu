@@ -11,12 +11,17 @@
 									<Modifier Name="" ID="{75392C60-FF5E-47B5-B037-570E28D4F17B}">
 										<PropertyList>
 											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="150"/>
-											<Property Name="Min" Type="Real64" Value="-150"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
 										</PropertyList>
 									</Modifier>
 								</ModifierInfo>
 							</ModifierList>
+						</Property>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -42,10 +47,25 @@
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
 						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{29AFAC22-4163-4987-B96A-C1D3D1133DAC}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="DeathAzteca_Combat(2)" ID="{9113AA80-7490-4C96-818B-0EBFD7BA54EC}" ShortID="585066071">
 							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>1</Value>
@@ -62,6 +82,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Death_Azteca" ID="{CA8AB2BF-562C-4D04-98D3-92B71A12F331}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.102312188329948"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Death_Azteca.wav</AudioFile>
 									<MediaIDList>
@@ -74,12 +98,34 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="SpawnAzteca_Combat(2)" ID="{5110EC03-DBA9-4EB7-958A-0687C2A0AB39}" ShortID="716007890">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb" ID="{29AFAC22-4163-4987-B96A-C1D3D1133DAC}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -95,6 +141,281 @@
 								<ActiveSource Name="Spawn_Azteca" ID="{4BB2F778-4A94-46C3-9E1C-59104F2A9391}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Main_Character" ID="{B602FDD9-928A-4457-A020-745AFDD11B45}" ShortID="549051727">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{ECB0FF5C-CA26-44B5-AB70-7B24EDEBDFDD}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="50"/>
+											<Property Name="Min" Type="Real64" Value="-150"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{29AFAC22-4163-4987-B96A-C1D3D1133DAC}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="GS4_5" ID="{FCC0F2B8-C884-4649-B811-F4BD933D72F3}" ShortID="633849174">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GunShot5_RuneFinder" ID="{92495A30-1187-4D82-A4C5-60FB8607DFE2}" ShortID="769708054">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb" ID="{29AFAC22-4163-4987-B96A-C1D3D1133DAC}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GunShot5_RuneFinder" ID="{D873BB2B-D3B2-4428-BD3E-AA852AA8EC08}">
+											<Language>SFX</Language>
+											<AudioFile>GunShot5_RuneFinder.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="116574228"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GunShot5_RuneFinder" ID="{D873BB2B-D3B2-4428-BD3E-AA852AA8EC08}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GunShot4_RuneFinder" ID="{8C963969-1C4B-4827-9C9B-BCDE1D862573}" ShortID="638180573">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb" ID="{29AFAC22-4163-4987-B96A-C1D3D1133DAC}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GunShot4_RuneFinder" ID="{F5F927E3-51CB-47D3-AA04-FD73AA864F25}">
+											<Language>SFX</Language>
+											<AudioFile>GunShot4_RuneFinder.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="740809723"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GunShot4_RuneFinder" ID="{F5F927E3-51CB-47D3-AA04-FD73AA864F25}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="GS1_2" ID="{85F6FF1A-412A-4E83-B004-6930C65970D5}" ShortID="849436008">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GunShot1_RuneFinder" ID="{A657FD3E-51FA-4E23-A996-F4E2655FAB74}" ShortID="73013075">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb" ID="{29AFAC22-4163-4987-B96A-C1D3D1133DAC}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GunShot1_RuneFinder" ID="{DAA4C96B-A520-4A5A-B39A-A358DE6B7B0C}">
+											<Language>SFX</Language>
+											<AudioFile>GunShot1_RuneFinder.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="744842112"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GunShot1_RuneFinder" ID="{DAA4C96B-A520-4A5A-B39A-A358DE6B7B0C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GunShot2_RuneFinder" ID="{7813E9DF-63CD-42BB-9B09-0FD2B08E28C0}" ShortID="823296484">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb" ID="{29AFAC22-4163-4987-B96A-C1D3D1133DAC}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GunShot2_RuneFinder" ID="{5D299498-CF05-49C0-91B6-BD6CE04A2668}">
+											<Language>SFX</Language>
+											<AudioFile>GunShot2_RuneFinder.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="258922555"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GunShot2_RuneFinder" ID="{5D299498-CF05-49C0-91B6-BD6CE04A2668}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="GS3_6" ID="{4A65ABB1-317B-4933-AF5A-931FA010FF73}" ShortID="856658266">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GunShot3_RuneFinder" ID="{8C9C102E-9DEE-4B45-A3AD-B91DC1B2E261}" ShortID="193892227">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb" ID="{29AFAC22-4163-4987-B96A-C1D3D1133DAC}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GunShot3_RuneFinder" ID="{E8307C2E-6237-494E-9ED3-416F343B48ED}">
+											<Language>SFX</Language>
+											<AudioFile>GunShot3_RuneFinder.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="820214985"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GunShot3_RuneFinder" ID="{E8307C2E-6237-494E-9ED3-416F343B48ED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GunShot6_RuneFinder" ID="{9F8772C0-F79B-4B46-A027-698B38C360DB}" ShortID="156654232">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E74D88EC-15D3-4CFD-A3BC-ACD89C7C3B25}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb" ID="{29AFAC22-4163-4987-B96A-C1D3D1133DAC}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GunShot6_RuneFinder" ID="{55E84A8E-63EE-4A57-ACDE-4AC2DBFD1EF3}">
+											<Language>SFX</Language>
+											<AudioFile>GunShot6_RuneFinder.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="270247649"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GunShot6_RuneFinder" ID="{55E84A8E-63EE-4A57-ACDE-4AC2DBFD1EF3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
