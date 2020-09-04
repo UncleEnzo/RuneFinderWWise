@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="iOS" BasePlatform="iOS" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\</ProjectRoot>
-		<SourceFilesRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\iOS\</SourceFilesRoot>
-		<SoundBanksRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\GeneratedSoundBanks\iOS\</SoundBanksRoot>
+		<ProjectRoot>D:\_RuneFinderWwise\RuneFinder\</ProjectRoot>
+		<SourceFilesRoot>D:\_RuneFinderWwise\RuneFinder\.cache\iOS\</SourceFilesRoot>
+		<SoundBanksRoot>D:\_RuneFinderWwise\RuneFinder\GeneratedSoundBanks\iOS\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\GeneratedSoundBanks\iOS</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\_RuneFinderWwise\RuneFinder\GeneratedSoundBanks\iOS</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -15,19 +15,25 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+			</IncludedAuxBusses>
 		</SoundBank>
 		<SoundBank Id="2228651116" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3563121554" Name="DeathAzteca_Combat_2_" ObjectPath="\Events\Default Work Unit\DeathAzteca_Combat_2_" DurationType="OneShot" DurationMin="1.667457" DurationMax="1.982952">
+				<Event Id="3563121554" Name="DeathAzteca_Combat_2_" ObjectPath="\Events\Default Work Unit\DeathAzteca_Combat_2_" DurationType="OneShot" DurationMin="1.619747" DurationMax="1.818105">
 					<IncludedMemoryFiles>
 						<File Id="330486091" Language="SFX">
 							<ShortName>Death_Azteca.wav</ShortName>
-							<Path>SFX\Death_Azteca_644E0A11.wem</Path>
+							<Path>SFX\Death_Azteca_DA694764.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="536353522" Name="Game_Music_Switch" ObjectPath="\Events\Default Work Unit\Game_Music_Switch" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -74,14 +80,63 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="693798761" Name="SpawnAzteca_Combat_2_" ObjectPath="\Events\Default Work Unit\SpawnAzteca_Combat_2_" DurationType="OneShot" DurationMin="1.604757" DurationMax="1.908389">
+				<Event Id="1065593839" Name="GS1_2" ObjectPath="\Events\Default Work Unit\GS1_2" DurationType="OneShot" DurationMin="0.364324" DurationMax="0.408940">
+					<IncludedMemoryFiles>
+						<File Id="258922555" Language="SFX">
+							<ShortName>GunShot2_RuneFinder.wav</ShortName>
+							<Path>SFX\GunShot2_RuneFinder_2CE66A1E.wem</Path>
+						</File>
+						<File Id="744842112" Language="SFX">
+							<ShortName>GunShot1_RuneFinder.wav</ShortName>
+							<Path>SFX\GunShot1_RuneFinder_2CE66A1E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2139655677" Name="GS3_6" ObjectPath="\Events\Default Work Unit\GS3_6" DurationType="OneShot" DurationMin="0.364324" DurationMax="0.545254">
+					<IncludedMemoryFiles>
+						<File Id="270247649" Language="SFX">
+							<ShortName>GunShot6_RuneFinder.wav</ShortName>
+							<Path>SFX\GunShot6_RuneFinder_2CE66A1E.wem</Path>
+						</File>
+						<File Id="820214985" Language="SFX">
+							<ShortName>GunShot3_RuneFinder.wav</ShortName>
+							<Path>SFX\GunShot3_RuneFinder_2CE66A1E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2140096933" Name="GS4_5" ObjectPath="\Events\Default Work Unit\GS4_5" DurationType="OneShot" DurationMin="0.364324" DurationMax="0.408940">
+					<IncludedMemoryFiles>
+						<File Id="116574228" Language="SFX">
+							<ShortName>GunShot5_RuneFinder.wav</ShortName>
+							<Path>SFX\GunShot5_RuneFinder_2CE66A1E.wem</Path>
+						</File>
+						<File Id="740809723" Language="SFX">
+							<ShortName>GunShot4_RuneFinder.wav</ShortName>
+							<Path>SFX\GunShot4_RuneFinder_2CE66A1E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="693798761" Name="SpawnAzteca_Combat_2_" ObjectPath="\Events\Default Work Unit\SpawnAzteca_Combat_2_" DurationType="OneShot" DurationMin="1.651780" DurationMax="1.854061">
 					<IncludedMemoryFiles>
 						<File Id="704451003" Language="SFX">
 							<ShortName>Spawn_Azteca.wav</ShortName>
 							<Path>SFX\Spawn_Azteca_644E0A11.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
 				</Event>
+				<Event Id="3738323421" Name="Stop_Game_Music_Switch" ObjectPath="\Events\Default Work Unit\Stop_Game_Music_Switch" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<StateGroups>
 				<StateGroup Id="1551306167" Name="UI" ObjectPath="\States\Default Work Unit\UI">

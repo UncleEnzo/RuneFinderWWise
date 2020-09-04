@@ -3,8 +3,6 @@
 	<ProjectInfo>
 		<Project Name="RuneFinder" ID="{3C00BDCE-C7A7-4D9B-A886-C5786E71B069}">
 			<Platforms>
-				<Platform Name="Android" ReferencePlatform="Android" ID="{20CF4B86-3D72-4E7A-BC0F-60CEA9156571}"/>
-				<Platform Name="iOS" ReferencePlatform="iOS" ID="{B2D3D7C3-1D6C-4899-840C-29E7C682887F}"/>
 				<Platform Name="Mac" ReferencePlatform="Mac" ID="{7426A344-9B0F-469B-997D-C48C97559ABD}"/>
 				<Platform Name="Windows" ReferencePlatform="Windows" ID="{E6D4768C-FD14-4731-85C7-00D43E1F29E7}"/>
 			</Platforms>
@@ -19,16 +17,12 @@
 					<ValueList>
 						<Value Platform="Mac"></Value>
 						<Value Platform="Windows"></Value>
-						<Value Platform="iOS"></Value>
-						<Value Platform="Android"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
-						<Value Platform="iOS">GeneratedSoundBanks\iOS\</Value>
-						<Value Platform="Android">GeneratedSoundBanks\Android\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
@@ -37,40 +31,30 @@
 					<ValueList>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
-						<Value Platform="iOS">GeneratedSoundBanks\iOS\</Value>
-						<Value Platform="Android">GeneratedSoundBanks\Android\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
 					<ValueList>
 						<Value Platform="Mac">Copy Streamed Files</Value>
 						<Value Platform="Windows">Copy Streamed Files</Value>
-						<Value Platform="iOS">Copy Streamed Files</Value>
-						<Value Platform="Android">Copy Streamed Files</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
 					<ValueList>
 						<Value Platform="Mac">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
 						<Value Platform="Windows">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
-						<Value Platform="iOS">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
-						<Value Platform="Android">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
 					<ValueList>
 						<Value Platform="Mac"></Value>
 						<Value Platform="Windows"></Value>
-						<Value Platform="iOS"></Value>
-						<Value Platform="Android"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
 					<ValueList>
 						<Value Platform="Mac"></Value>
 						<Value Platform="Windows"></Value>
-						<Value Platform="iOS"></Value>
-						<Value Platform="Android"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2019.2|Build=7329|VersionName=v2019.2.4|Config=Release"/>

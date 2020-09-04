@@ -5,7 +5,12 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\_RuneFinderWwise\RuneFinder\Originals\Music\"/>
 				<Property Name="Event Action List\{0A750B67-45B6-47DB-9F93-BD7228279538}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{389F4F17-4ED8-4825-9936-CDAC5D04790C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4203F270-8720-4B46-BDD4-477EEEA6050C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{45286D1A-D82A-4F38-8F69-DB5D70D131B8}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{97A8E8C8-04DB-4B32-89EB-175F4C9A5FAD}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{BE634EDC-0839-40FE-BB9C-82EE2DE978DB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C9A42294-2AA4-4FE7-BE0F-E0C653A4BCA9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D6C2F3A5-B9C5-43B7-A6E5-963D02990EFE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{FA8BF9A7-9759-4A99-A481-BD0612EE1AF5}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
@@ -13,21 +18,18 @@
 					<ValueList>
 						<Value Platform="Mac"></Value>
 						<Value Platform="Windows"></Value>
-						<Value Platform="iOS"></Value>
-						<Value Platform="Android"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
-						<Value Platform="iOS">GeneratedSoundBanks\iOS\</Value>
-						<Value Platform="Android">GeneratedSoundBanks\Android\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
+				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
@@ -78,40 +80,30 @@
 					<ValueList>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
-						<Value Platform="iOS">GeneratedSoundBanks\iOS\</Value>
-						<Value Platform="Android">GeneratedSoundBanks\Android\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
 					<ValueList>
 						<Value Platform="Mac">Copy Streamed Files</Value>
 						<Value Platform="Windows">Copy Streamed Files</Value>
-						<Value Platform="iOS">Copy Streamed Files</Value>
-						<Value Platform="Android">Copy Streamed Files</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
 					<ValueList>
 						<Value Platform="Mac">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
 						<Value Platform="Windows">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
-						<Value Platform="iOS">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
-						<Value Platform="Android">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
 					<ValueList>
 						<Value Platform="Mac"></Value>
 						<Value Platform="Windows"></Value>
-						<Value Platform="iOS"></Value>
-						<Value Platform="Android"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
 					<ValueList>
 						<Value Platform="Mac"></Value>
 						<Value Platform="Windows"></Value>
-						<Value Platform="iOS"></Value>
-						<Value Platform="Android"></Value>
 					</ValueList>
 				</Property>
 			</PropertyList>

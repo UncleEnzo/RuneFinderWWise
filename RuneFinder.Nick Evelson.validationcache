@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="97">
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1595765436" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Virtual Acoustics\Default Work Unit.wwu" DateLow="1595780466" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Triggers\Default Work Unit.wwu" DateLow="1595780466" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Switches\Default Work Unit.wwu" DateLow="1595780466" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\States\Default Work Unit.wwu" DateLow="1595782054" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1595780466" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\SoundBanks\Default Work Unit.wwu" DateLow="1595782296" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\RuneFinder.wproj" DateLow="1595946232" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\RuneFinder.Nick Evelson.wsettings" DateLow="1595953571" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Queries\Factory Queries.wwu" DateLow="1595764994" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Queries\Default Work Unit.wwu" DateLow="1595780466" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Presets\Factory Spatial Audio.wwu" DateLow="1595764994" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Presets\Factory Reflect.wwu" DateLow="1595765436" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Presets\Default Work Unit.wwu" DateLow="1595780466" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Modulators\Default Work Unit.wwu" DateLow="1595780466" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Mixing Sessions\Default Work Unit.wwu" DateLow="1595780466" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1595782342" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1595953571" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Game Parameters\Default Work Unit.wwu" DateLow="1595782162" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Events\Default Work Unit.wwu" DateLow="1595953571" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory Reflect.wwu" DateLow="1595765436" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory McDSP Effects.wwu" DateLow="1595765024" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory Mastering Suite.wwu" DateLow="1595765516" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1595765124" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1595765124" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1595765124" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory iZotope Filters.wwu" DateLow="1595765124" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory iZotope Dynamics.wwu" DateLow="1595765124" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory iZotope Delay.wwu" DateLow="1595765124" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory iZotope Box Modeler.wwu" DateLow="1595765124" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory Effects.wwu" DateLow="1595764994" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory Auro Headphone.wwu" DateLow="1595765298" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Default Work Unit.wwu" DateLow="1595780466" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1595780466" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1595764994" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Conversion Settings\Default Work Unit.wwu" DateLow="1595780466" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Control Surface Sessions\Default Work Unit.wwu" DateLow="1595780466" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Audio Devices\Default Work Unit.wwu" DateLow="1595780832" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Attenuations\Default Work Unit.wwu" DateLow="1595780466" DateHigh="0"/>
-	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1595782056" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Virtual Acoustics\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Triggers\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Switches\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\States\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\SoundBanks\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\RuneFinder.wproj" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\RuneFinder.Nick Evelson.wsettings" DateLow="1599227416" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Queries\Factory Queries.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Queries\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Presets\Factory Spatial Audio.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Presets\Factory Reflect.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Presets\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Modulators\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Mixing Sessions\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Game Parameters\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Events\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory Reflect.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory McDSP Effects.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory Mastering Suite.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory iZotope Filters.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory iZotope Dynamics.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory iZotope Delay.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory iZotope Box Modeler.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory Effects.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Factory Auro Headphone.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Effects\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Conversion Settings\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Control Surface Sessions\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Audio Devices\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Attenuations\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
+	<ValidationCacheItem File="D:\_RuneFinderWwise\RuneFinder\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1599227415" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Nick Evelson\Desktop\CoattailsWwise\RuneFinder\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1595765436" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Nick Evelson\Desktop\CoattailsWwise\RuneFinder\Virtual Acoustics\Default Work Unit.wwu" DateLow="1595780466" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Nick Evelson\Desktop\CoattailsWwise\RuneFinder\Triggers\Default Work Unit.wwu" DateLow="1595780466" DateHigh="0"/>

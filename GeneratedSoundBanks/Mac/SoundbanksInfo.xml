@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\</ProjectRoot>
-		<SourceFilesRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>D:\_RuneFinderWwise\RuneFinder\</ProjectRoot>
+		<SourceFilesRoot>D:\_RuneFinderWwise\RuneFinder\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\_RuneFinderWwise\RuneFinder\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\_RuneFinderWwise\RuneFinder\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -28,7 +28,7 @@
 					<IncludedMemoryFiles>
 						<File Id="330486091" Language="SFX">
 							<ShortName>Death_Azteca.wav</ShortName>
-							<Path>SFX\Death_Azteca_CD396769.wem</Path>
+							<Path>SFX\Death_Azteca_6BC5C35C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
