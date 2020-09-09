@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>D:\_RuneFinderWwise\RuneFinder\</ProjectRoot>
-		<SourceFilesRoot>D:\_RuneFinderWwise\RuneFinder\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\_RuneFinderWwise\RuneFinder\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\</ProjectRoot>
+		<SourceFilesRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\_RuneFinderWwise\RuneFinder\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -40,6 +40,10 @@
 						<File Id="375305240" Language="SFX">
 							<ShortName>StartMenuMusic.wav</ShortName>
 							<Path>SFX\StartMenuMusic_37657DA8.wem</Path>
+						</File>
+						<File Id="405158017" Language="SFX">
+							<ShortName>TheNevel_Aztec_Sketch.wav</ShortName>
+							<Path>SFX\TheNevel_Aztec_Sketch_37657DA8.wem</Path>
 						</File>
 						<File Id="562575462" Language="SFX">
 							<ShortName>CombatL1Music.wav</ShortName>
@@ -78,9 +82,18 @@
 								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{6F36D582-974D-4A5C-9378-4C5880014862}">
+							<Children>
+								<SwitchContainer SwitchValue="{735D2AFA-DC9B-4637-AB75-22809CE6F55A}">
+									<Media>
+										<File Id="405158017"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1065593839" Name="GS1_2" ObjectPath="\Events\Default Work Unit\GS1_2" DurationType="OneShot" DurationMin="0.364324" DurationMax="0.408940">
+				<Event Id="1065593839" Name="GS1_2" ObjectPath="\Events\Default Work Unit\GS1_2" DurationType="OneShot" DurationMin="0.343877" DurationMax="0.408940">
 					<IncludedMemoryFiles>
 						<File Id="258922555" Language="SFX">
 							<ShortName>GunShot2_RuneFinder.wav</ShortName>
@@ -95,7 +108,7 @@
 						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2139655677" Name="GS3_6" ObjectPath="\Events\Default Work Unit\GS3_6" DurationType="OneShot" DurationMin="0.364324" DurationMax="0.545254">
+				<Event Id="2139655677" Name="GS3_6" ObjectPath="\Events\Default Work Unit\GS3_6" DurationType="OneShot" DurationMin="0.343877" DurationMax="0.545254">
 					<IncludedMemoryFiles>
 						<File Id="270247649" Language="SFX">
 							<ShortName>GunShot6_RuneFinder.wav</ShortName>
@@ -110,7 +123,7 @@
 						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2140096933" Name="GS4_5" ObjectPath="\Events\Default Work Unit\GS4_5" DurationType="OneShot" DurationMin="0.364324" DurationMax="0.408940">
+				<Event Id="2140096933" Name="GS4_5" ObjectPath="\Events\Default Work Unit\GS4_5" DurationType="OneShot" DurationMin="0.343877" DurationMax="0.408940">
 					<IncludedMemoryFiles>
 						<File Id="116574228" Language="SFX">
 							<ShortName>GunShot5_RuneFinder.wav</ShortName>
@@ -119,6 +132,21 @@
 						<File Id="740809723" Language="SFX">
 							<ShortName>GunShot4_RuneFinder.wav</ShortName>
 							<Path>SFX\GunShot4_RuneFinder_2CE66A1E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1066579551" Name="GS7_8" ObjectPath="\Events\Default Work Unit\GS7_8" DurationType="OneShot" DurationMin="0.917004" DurationMax="1.090508">
+					<IncludedMemoryFiles>
+						<File Id="700191065" Language="SFX">
+							<ShortName>GunShot7_RuneFinder.wav</ShortName>
+							<Path>SFX\GunShot7_RuneFinder_2CE66A1E.wem</Path>
+						</File>
+						<File Id="960835180" Language="SFX">
+							<ShortName>GunShot8_RuneFinder.wav</ShortName>
+							<Path>SFX\GunShot8_RuneFinder_2CE66A1E.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>

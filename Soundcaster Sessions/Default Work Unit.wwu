@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{82D5C6A8-1C26-47F9-9374-F6E67E71746C}" SchemaVersion="97">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{82D5C6A8-1C26-47F9-9374-F6E67E71746C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{82D5C6A8-1C26-47F9-9374-F6E67E71746C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Test" ID="{62368563-153D-466B-B223-EDB717C33361}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="DeathAzteca_Combat_2_" ID="{D6C2F3A5-B9C5-43B7-A6E5-963D02990EFE}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SpawnAzteca_Combat_2_" ID="{4203F270-8720-4B46-BDD4-477EEEA6050C}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="GS7_8" ID="{F3E035CF-5262-4DEA-816C-8F6EFD3CC436}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="GS1_2" ID="{C9A42294-2AA4-4FE7-BE0F-E0C653A4BCA9}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Game_Music_Switch" ID="{389F4F17-4ED8-4825-9936-CDAC5D04790C}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Boss_Health" ID="{CCBD94EA-3791-4C30-B9B4-A0F702181C74}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="GamePlay" ID="{6F36D582-974D-4A5C-9378-4C5880014862}"/>
+						<CurrentStateRef Name="Exploration_Music" ID="{735D2AFA-DC9B-4637-AB75-22809CE6F55A}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

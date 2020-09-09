@@ -10,6 +10,7 @@
 						<ObjectRef Name="Game_Music_Switch" ID="{389F4F17-4ED8-4825-9936-CDAC5D04790C}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Game_Music_Switch" ID="{97A8E8C8-04DB-4B32-89EB-175F4C9A5FAD}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SpawnAzteca_Combat_2_" ID="{4203F270-8720-4B46-BDD4-477EEEA6050C}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GS7_8" ID="{F3E035CF-5262-4DEA-816C-8F6EFD3CC436}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GS3_6" ID="{45286D1A-D82A-4F38-8F69-DB5D70D131B8}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GS1_2" ID="{C9A42294-2AA4-4FE7-BE0F-E0C653A4BCA9}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

@@ -151,7 +151,7 @@
 									<Modifier Name="" ID="{ECB0FF5C-CA26-44B5-AB70-7B24EDEBDFDD}">
 										<PropertyList>
 											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="50"/>
+											<Property Name="Max" Type="Real64" Value="150"/>
 											<Property Name="Min" Type="Real64" Value="-150"/>
 										</PropertyList>
 									</Modifier>
@@ -416,7 +416,73 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="GS7_8" ID="{938C3E51-25A5-428A-93CD-A5AEF495E9DB}" ShortID="1005068573">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GunShot7_RuneFinder" ID="{E82D2D76-7C22-43AE-B5F6-462A7E444CB7}" ShortID="306757815">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GunShot7_RuneFinder" ID="{6FFEA5EF-83C1-4425-B594-957E0FF9309B}">
+											<Language>SFX</Language>
+											<AudioFile>GunShot7_RuneFinder.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="700191065"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GunShot7_RuneFinder" ID="{6FFEA5EF-83C1-4425-B594-957E0FF9309B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GunShot8_RuneFinder" ID="{06267259-8098-4D21-B845-0F0195DFE79B}" ShortID="1010302759">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GunShot8_RuneFinder" ID="{C0A666BE-3B7C-44BB-B2A1-FFE2BB685A93}">
+											<Language>SFX</Language>
+											<AudioFile>GunShot8_RuneFinder.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="960835180"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GunShot8_RuneFinder" ID="{C0A666BE-3B7C-44BB-B2A1-FFE2BB685A93}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{B6345BAF-D679-4083-BE00-97C64748FAA6}"/>
+					</PositioningInfo>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
