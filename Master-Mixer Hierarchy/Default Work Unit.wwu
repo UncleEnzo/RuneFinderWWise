@@ -50,9 +50,102 @@
 								</Reference>
 							</ReferenceList>
 						</AuxBus>
-						<Bus Name="Background_Music" ID="{0601BFD6-89C3-4AE8-A6DA-791A2A83AEA2}"/>
-						<Bus Name="Sound_Effects" ID="{1AE8CE79-0FCB-4716-BB1C-10CB08023CA1}"/>
-						<Bus Name="UI_Effects" ID="{0C4B1910-A43D-4C58-A721-F9E52582AB6B}"/>
+						<Bus Name="Background_Music" ID="{0601BFD6-89C3-4AE8-A6DA-791A2A83AEA2}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{813E77C6-65CB-4F76-BFD7-358AFA152421}" ShortID="67897452">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Background_Music" ID="{8EDBEBBA-78BB-4729-9D89-D29D6C835274}" WorkUnitID="{C1052032-D9A3-4A81-A641-A68A04C26706}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{370289E6-7DCA-484E-84A0-B63E3AADE3D1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="Sound_Effects" ID="{1AE8CE79-0FCB-4716-BB1C-10CB08023CA1}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{C239EDED-44A7-4BCF-BCE8-9111445620E0}" ShortID="418690709">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Sound_Effects" ID="{44263A91-EF80-458C-B5F3-253DB47174C6}" WorkUnitID="{C1052032-D9A3-4A81-A641-A68A04C26706}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{8E2FB76D-610C-4FBC-985C-9453579547B4}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="UI_Effects" ID="{0C4B1910-A43D-4C58-A721-F9E52582AB6B}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{BAE91046-414E-480A-AD5B-E3AFDA708D05}" ShortID="652524343">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="UI_Effects" ID="{3DB302A4-CE16-42C7-91BF-85C5F12488F8}" WorkUnitID="{C1052032-D9A3-4A81-A641-A68A04C26706}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{424C7B67-10BE-4F96-ADF5-F7494E08FA91}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

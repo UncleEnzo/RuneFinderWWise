@@ -19,6 +19,9 @@
 				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\Reverb"/>
 			</IncludedAuxBusses>
 			<GameParameters>
+				<GameParameter Id="942663168" Name="UI_Effects" ObjectPath="\Game Parameters\Default Work Unit\UI_Effects"/>
+				<GameParameter Id="1585661381" Name="Background_Music" ObjectPath="\Game Parameters\Default Work Unit\Background_Music"/>
+				<GameParameter Id="1761240301" Name="Sound_Effects" ObjectPath="\Game Parameters\Default Work Unit\Sound_Effects"/>
 				<GameParameter Id="2918011349" Name="MasterVolume" ObjectPath="\Game Parameters\Default Work Unit\MasterVolume"/>
 			</GameParameters>
 		</SoundBank>

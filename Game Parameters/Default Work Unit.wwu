@@ -9,6 +9,9 @@
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="MasterVolume" ID="{33A2A196-C274-4D83-BAF5-3BC594D3FB32}"/>
+				<GameParameter Name="Background_Music" ID="{8EDBEBBA-78BB-4729-9D89-D29D6C835274}"/>
+				<GameParameter Name="Sound_Effects" ID="{44263A91-EF80-458C-B5F3-253DB47174C6}"/>
+				<GameParameter Name="UI_Effects" ID="{3DB302A4-CE16-42C7-91BF-85C5F12488F8}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
