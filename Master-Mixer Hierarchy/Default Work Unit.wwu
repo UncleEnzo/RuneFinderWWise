@@ -3,7 +3,7 @@
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{478EEEBB-701E-4742-A623-CD20DC6A442C}" PersistMode="Standalone">
 			<ChildrenList>
-				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+				<Bus Name="Master_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{897DCF3B-1359-4C31-BD2C-D41FF5E12D8E}" WorkUnitID="{CE0D39DC-56AF-439D-9533-3BE00F4A2534}"/>
@@ -20,6 +20,9 @@
 								</Reference>
 							</ReferenceList>
 						</AuxBus>
+						<Bus Name="Background_Music" ID="{0601BFD6-89C3-4AE8-A6DA-791A2A83AEA2}"/>
+						<Bus Name="Sound_Effects" ID="{1AE8CE79-0FCB-4716-BB1C-10CB08023CA1}"/>
+						<Bus Name="UI_Effects" ID="{0C4B1910-A43D-4C58-A721-F9E52582AB6B}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

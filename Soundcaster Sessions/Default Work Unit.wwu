@@ -34,7 +34,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="GamePlay" ID="{6F36D582-974D-4A5C-9378-4C5880014862}"/>
-						<CurrentStateRef Name="Exploration_Music" ID="{735D2AFA-DC9B-4637-AB75-22809CE6F55A}"/>
+						<CurrentStateRef Name="Combat_Music" ID="{CB5AE1B1-2C6E-4730-ABF3-E07B3A2ADBA6}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

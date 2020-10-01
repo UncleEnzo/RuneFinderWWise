@@ -89,10 +89,10 @@
 	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Triggers\Default Work Unit.wwu" DateLow="1595959385" DateHigh="0"/>
 	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Switches\Default Work Unit.wwu" DateLow="1596146373" DateHigh="0"/>
 	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\States\Default Work Unit.wwu" DateLow="1596145044" DateHigh="0"/>
-	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1595959385" DateHigh="0"/>
-	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\SoundBanks\Default Work Unit.wwu" DateLow="1598032233" DateHigh="0"/>
+	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1599681435" DateHigh="0"/>
+	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\SoundBanks\Default Work Unit.wwu" DateLow="1599680571" DateHigh="0"/>
 	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\RuneFinder.wproj" DateLow="1599679110" DateHigh="0"/>
-	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\RuneFinder.otpri.wsettings" DateLow="1598032236" DateHigh="0"/>
+	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\RuneFinder.otpri.wsettings" DateLow="1600799872" DateHigh="0"/>
 	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Queries\Factory Queries.wwu" DateLow="1595959385" DateHigh="0"/>
 	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Queries\Default Work Unit.wwu" DateLow="1595959385" DateHigh="0"/>
 	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Presets\Factory Spatial Audio.wwu" DateLow="1599679110" DateHigh="0"/>
@@ -100,10 +100,10 @@
 	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Presets\Default Work Unit.wwu" DateLow="1595959385" DateHigh="0"/>
 	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Modulators\Default Work Unit.wwu" DateLow="1595959385" DateHigh="0"/>
 	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1595959385" DateHigh="0"/>
-	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1598031073" DateHigh="0"/>
-	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1596146299" DateHigh="0"/>
+	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1599680384" DateHigh="0"/>
+	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1599681911" DateHigh="0"/>
 	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Game Parameters\Default Work Unit.wwu" DateLow="1595959385" DateHigh="0"/>
-	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Events\Default Work Unit.wwu" DateLow="1598032233" DateHigh="0"/>
+	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Events\Default Work Unit.wwu" DateLow="1599680384" DateHigh="0"/>
 	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Effects\Factory Reflect.wwu" DateLow="1599679110" DateHigh="0"/>
 	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Effects\Factory McDSP Effects.wwu" DateLow="1595959385" DateHigh="0"/>
 	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Effects\Factory Mastering Suite.wwu" DateLow="1595959385" DateHigh="0"/>
@@ -123,5 +123,5 @@
 	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1595959385" DateHigh="0"/>
 	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Audio Devices\Default Work Unit.wwu" DateLow="1595959385" DateHigh="0"/>
 	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Attenuations\Default Work Unit.wwu" DateLow="1595959385" DateHigh="0"/>
-	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1598032036" DateHigh="0"/>
+	<ValidationCacheItem File="E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1599680384" DateHigh="0"/>
 </ValidationCache>
