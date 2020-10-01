@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\</ProjectRoot>
-		<SourceFilesRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\_RuneFinderWwise\RuneFinder\</ProjectRoot>
+		<SourceFilesRoot>D:\_RuneFinderWwise\RuneFinder\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\_RuneFinderWwise\RuneFinder\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\_RuneFinderWwise\RuneFinder\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,8 +16,11 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
-				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\Reverb"/>
 			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="2918011349" Name="MasterVolume" ObjectPath="\Game Parameters\Default Work Unit\MasterVolume"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="2228651116" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
@@ -32,7 +35,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\Reverb"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="536353522" Name="Game_Music_Switch" ObjectPath="\Events\Default Work Unit\Game_Music_Switch" DurationType="Infinite">
@@ -105,7 +108,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\Reverb"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2139655677" Name="GS3_6" ObjectPath="\Events\Default Work Unit\GS3_6" DurationType="OneShot" DurationMin="0.343877" DurationMax="0.545254">
@@ -120,7 +123,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\Reverb"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2140096933" Name="GS4_5" ObjectPath="\Events\Default Work Unit\GS4_5" DurationType="OneShot" DurationMin="0.343877" DurationMax="0.408940">
@@ -135,7 +138,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\Reverb"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1066579551" Name="GS7_8" ObjectPath="\Events\Default Work Unit\GS7_8" DurationType="OneShot" DurationMin="0.917004" DurationMax="1.090508">
@@ -150,7 +153,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\Reverb"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="693798761" Name="SpawnAzteca_Combat_2_" ObjectPath="\Events\Default Work Unit\SpawnAzteca_Combat_2_" DurationType="OneShot" DurationMin="1.651780" DurationMax="1.854061">
@@ -161,7 +164,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\Reverb"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3738323421" Name="Stop_Game_Music_Switch" ObjectPath="\Events\Default Work Unit\Stop_Game_Music_Switch" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>

@@ -5,13 +5,20 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\_RuneFinderWwise\RuneFinder\Originals\Music\"/>
 				<Property Name="Event Action List\{0A750B67-45B6-47DB-9F93-BD7228279538}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2F5F122D-F0B2-4B02-BE3C-73042E83968D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{389F4F17-4ED8-4825-9936-CDAC5D04790C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4203F270-8720-4B46-BDD4-477EEEA6050C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{45286D1A-D82A-4F38-8F69-DB5D70D131B8}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{4C093614-C2F8-4D27-A5F9-E06117B98C81}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{627B3368-41DF-4609-B70E-2121EAFBC19E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{80E96FCF-769A-41DE-81E1-1E3ACCB09EA2}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{97A8E8C8-04DB-4B32-89EB-175F4C9A5FAD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BE634EDC-0839-40FE-BB9C-82EE2DE978DB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C9A42294-2AA4-4FE7-BE0F-E0C653A4BCA9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D6C2F3A5-B9C5-43B7-A6E5-963D02990EFE}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{DFB55DCD-2F3B-4663-B852-9BAC8F1CFB49}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E4C04693-813D-4B34-8911-2204A28D2D85}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F3E035CF-5262-4DEA-816C-8F6EFD3CC436}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{FA8BF9A7-9759-4A99-A481-BD0612EE1AF5}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">

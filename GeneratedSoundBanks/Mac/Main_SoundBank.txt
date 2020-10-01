@@ -28,18 +28,18 @@ State	ID	Name	State Group			Notes
 	3441491508	BossFight_Music	Music			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	116574228	GunShot5_RuneFinder	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Mac\SFX\GunShot5_RuneFinder_2CE66A1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS4_5\GunShot5_RuneFinder		7771
-	258922555	GunShot2_RuneFinder	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Mac\SFX\GunShot2_RuneFinder_2CE66A1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS1_2\GunShot2_RuneFinder		7020
-	270247649	GunShot6_RuneFinder	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Mac\SFX\GunShot6_RuneFinder_2CE66A1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS3_6\GunShot6_RuneFinder		7565
-	330486091	DeathAzteca_Combat(2)	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Mac\SFX\Death_Azteca_6BC5C35C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Azteca\DeathAzteca_Combat(2)		329548
-	375305240	StartMenuMusic	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Mac\SFX\StartMenuMusic_37657DA8.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music_Switch\StartMenuMusic\StartMenuMusic\StartMenuMusic		756701
-	405158017	TheNevel_Aztec_Sketch	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Mac\SFX\TheNevel_Aztec_Sketch_37657DA8.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music_Switch\ExplorationL1Music\ExplorationL1Music\TheNevel_Aztec_Sketch		1550944
-	562575462	CombatL1Music	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Mac\SFX\CombatL1Music_37657DA8.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music_Switch\CombatL1Music\CombatL1Music\CombatL1Music		1303051
-	700191065	GunShot7_RuneFinder	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Mac\SFX\GunShot7_RuneFinder_2CE66A1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS7_8\GunShot7_RuneFinder		10101
-	704451003	SpawnAzteca_Combat(2)	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Mac\SFX\Spawn_Azteca_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Azteca\SpawnAzteca_Combat(2)		336064
-	740809723	GunShot4_RuneFinder	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Mac\SFX\GunShot4_RuneFinder_2CE66A1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS4_5\GunShot4_RuneFinder		7827
-	744842112	GunShot1_RuneFinder	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Mac\SFX\GunShot1_RuneFinder_2CE66A1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS1_2\GunShot1_RuneFinder		7535
-	820214985	GunShot3_RuneFinder	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Mac\SFX\GunShot3_RuneFinder_2CE66A1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS3_6\GunShot3_RuneFinder		8318
-	956761082	InventoryL1Music	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Mac\SFX\InventoryL1Music_37657DA8.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music_Switch\InventoryL1Music\InventoryL1Music\InventoryL1Music		1038629
-	960835180	GunShot8_RuneFinder	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Mac\SFX\GunShot8_RuneFinder_2CE66A1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS7_8\GunShot8_RuneFinder		10179
+	116574228	GunShot5_RuneFinder	D:\_RuneFinderWwise\RuneFinder\.cache\Mac\SFX\GunShot5_RuneFinder_2CE66A1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS4_5\GunShot5_RuneFinder		7771
+	258922555	GunShot2_RuneFinder	D:\_RuneFinderWwise\RuneFinder\.cache\Mac\SFX\GunShot2_RuneFinder_2CE66A1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS1_2\GunShot2_RuneFinder		7020
+	270247649	GunShot6_RuneFinder	D:\_RuneFinderWwise\RuneFinder\.cache\Mac\SFX\GunShot6_RuneFinder_2CE66A1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS3_6\GunShot6_RuneFinder		7565
+	330486091	DeathAzteca_Combat(2)	D:\_RuneFinderWwise\RuneFinder\.cache\Mac\SFX\Death_Azteca_6BC5C35C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Azteca\DeathAzteca_Combat(2)		329548
+	375305240	StartMenuMusic	D:\_RuneFinderWwise\RuneFinder\.cache\Mac\SFX\StartMenuMusic_37657DA8.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music_Switch\StartMenuMusic\StartMenuMusic\StartMenuMusic		756701
+	405158017	TheNevel_Aztec_Sketch	D:\_RuneFinderWwise\RuneFinder\.cache\Mac\SFX\TheNevel_Aztec_Sketch_37657DA8.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music_Switch\ExplorationL1Music\ExplorationL1Music\TheNevel_Aztec_Sketch		1550944
+	562575462	CombatL1Music	D:\_RuneFinderWwise\RuneFinder\.cache\Mac\SFX\CombatL1Music_37657DA8.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music_Switch\CombatL1Music\CombatL1Music\CombatL1Music		1303051
+	700191065	GunShot7_RuneFinder	D:\_RuneFinderWwise\RuneFinder\.cache\Mac\SFX\GunShot7_RuneFinder_2CE66A1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS7_8\GunShot7_RuneFinder		10101
+	704451003	SpawnAzteca_Combat(2)	D:\_RuneFinderWwise\RuneFinder\.cache\Mac\SFX\Spawn_Azteca_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Azteca\SpawnAzteca_Combat(2)		336064
+	740809723	GunShot4_RuneFinder	D:\_RuneFinderWwise\RuneFinder\.cache\Mac\SFX\GunShot4_RuneFinder_2CE66A1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS4_5\GunShot4_RuneFinder		7827
+	744842112	GunShot1_RuneFinder	D:\_RuneFinderWwise\RuneFinder\.cache\Mac\SFX\GunShot1_RuneFinder_2CE66A1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS1_2\GunShot1_RuneFinder		7535
+	820214985	GunShot3_RuneFinder	D:\_RuneFinderWwise\RuneFinder\.cache\Mac\SFX\GunShot3_RuneFinder_2CE66A1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS3_6\GunShot3_RuneFinder		8318
+	956761082	InventoryL1Music	D:\_RuneFinderWwise\RuneFinder\.cache\Mac\SFX\InventoryL1Music_37657DA8.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music_Switch\InventoryL1Music\InventoryL1Music\InventoryL1Music		1038629
+	960835180	GunShot8_RuneFinder	D:\_RuneFinderWwise\RuneFinder\.cache\Mac\SFX\GunShot8_RuneFinder_2CE66A1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS7_8\GunShot8_RuneFinder		10179
 
