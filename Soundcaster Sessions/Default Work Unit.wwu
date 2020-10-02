@@ -18,10 +18,6 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="GS1_2" ID="{C9A42294-2AA4-4FE7-BE0F-E0C653A4BCA9}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}"/>
-							<Position X="2" Y="1"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Game_Music_Switch" ID="{389F4F17-4ED8-4825-9936-CDAC5D04790C}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}"/>
 							<Position X="3" Y="0"/>
 						</Module>

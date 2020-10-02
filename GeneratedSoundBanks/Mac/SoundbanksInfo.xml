@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>D:\_RuneFinderWwise\RuneFinder\</ProjectRoot>
-		<SourceFilesRoot>D:\_RuneFinderWwise\RuneFinder\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\_RuneFinderWwise\RuneFinder\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\</ProjectRoot>
+		<SourceFilesRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\_RuneFinderWwise\RuneFinder\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -97,6 +97,9 @@
 								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A2F62A0B-546D-4B64-AE9A-252030FFEF0A}">
+							<Children/>
+						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 				<Event Id="1065593839" Name="GS1_2" ObjectPath="\Events\Default Work Unit\GS1_2" DurationType="OneShot" DurationMin="0.343877" DurationMax="0.408940">
@@ -159,6 +162,14 @@
 						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\Reverb"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="100677706" Name="Reset_Volume_Background_Music" ObjectPath="\Events\Default Work Unit\Reset_Volume_Background_Music" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2281661284" Name="Reset_Volume_Master" ObjectPath="\Events\Default Work Unit\Reset_Volume_Master" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="292085504" Name="Reset_Volume_Sound_Effects" ObjectPath="\Events\Default Work Unit\Reset_Volume_Sound_Effects" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="856426959" Name="Reset_Volume_UI_Effects" ObjectPath="\Events\Default Work Unit\Reset_Volume_UI_Effects" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="359540151" Name="Set_Volume_Background_Music" ObjectPath="\Events\Default Work Unit\Set_Volume_Background_Music" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1260445465" Name="Set_Volume_Master" ObjectPath="\Events\Default Work Unit\Set_Volume_Master" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4147926211" Name="Set_Volume_Sound_Effects" ObjectPath="\Events\Default Work Unit\Set_Volume_Sound_Effects" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="848918190" Name="Set_Volume_UI_Effects" ObjectPath="\Events\Default Work Unit\Set_Volume_UI_Effects" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="693798761" Name="SpawnAzteca_Combat_2_" ObjectPath="\Events\Default Work Unit\SpawnAzteca_Combat_2_" DurationType="OneShot" DurationMin="1.651780" DurationMax="1.854061">
 					<IncludedMemoryFiles>
 						<File Id="704451003" Language="SFX">
