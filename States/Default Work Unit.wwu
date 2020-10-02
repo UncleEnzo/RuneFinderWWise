@@ -13,6 +13,7 @@
 						<State Name="Credits_Music" ID="{315840B3-997E-48CD-AA51-8F319A7E6AFC}"/>
 						<State Name="Lose" ID="{7F8722C6-7ED5-4D0D-8C5D-A0F3E9C624E3}"/>
 						<State Name="Win" ID="{A3970C8F-D451-40B0-BD77-7D5B26EC0394}"/>
+						<State Name="PauseMenu" ID="{E3B872D4-49AB-4C4E-BC0C-BDD41DB762B4}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="UI" ID="{CBF61E89-4F50-4453-B62E-6D38A7DD8AC2}">

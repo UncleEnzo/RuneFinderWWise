@@ -844,6 +844,7 @@
 										<SourceFadeOut>
 											<MusicFade Name="Source Fade-out" ID="{1DD5827B-C34B-45E6-8DFC-078C2FDA1186}">
 												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="8"/>
 													<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>
@@ -917,6 +918,15 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="ExplorationL1Music" ID="{593F6DC2-ECB1-4424-9963-6E0C2F760D6E}" WorkUnitID="{6932D00C-C62D-40FB-B865-9FF6B498743C}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="GamePlay" ID="{6F36D582-974D-4A5C-9378-4C5880014862}"/>
+								<PathElementRef Name="PauseMenu" ID="{E3B872D4-49AB-4C4E-BC0C-BDD41DB762B4}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="PauseMenu" ID="{07472C9F-9C64-488C-93DF-63B0E93BD8AA}" WorkUnitID="{6932D00C-C62D-40FB-B865-9FF6B498743C}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>

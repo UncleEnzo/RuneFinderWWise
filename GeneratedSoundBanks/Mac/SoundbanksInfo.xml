@@ -34,7 +34,7 @@
 					<IncludedMemoryFiles>
 						<File Id="330486091" Language="SFX">
 							<ShortName>Death_Azteca.wav</ShortName>
-							<Path>SFX\Death_Azteca_6BC5C35C.wem</Path>
+							<Path>SFX\Death_Azteca_3F2574E8.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -45,19 +45,19 @@
 					<IncludedMemoryFiles>
 						<File Id="375305240" Language="SFX">
 							<ShortName>StartMenuMusic.wav</ShortName>
-							<Path>SFX\StartMenuMusic_37657DA8.wem</Path>
+							<Path>SFX\StartMenuMusic_CB37816B.wem</Path>
 						</File>
 						<File Id="405158017" Language="SFX">
 							<ShortName>TheNevel_Aztec_Sketch.wav</ShortName>
-							<Path>SFX\TheNevel_Aztec_Sketch_37657DA8.wem</Path>
+							<Path>SFX\TheNevel_Aztec_Sketch_CB37816B.wem</Path>
 						</File>
 						<File Id="562575462" Language="SFX">
 							<ShortName>CombatL1Music.wav</ShortName>
-							<Path>SFX\CombatL1Music_37657DA8.wem</Path>
+							<Path>SFX\CombatL1Music_CB37816B.wem</Path>
 						</File>
 						<File Id="956761082" Language="SFX">
 							<ShortName>InventoryL1Music.wav</ShortName>
-							<Path>SFX\InventoryL1Music_37657DA8.wem</Path>
+							<Path>SFX\InventoryL1Music_CB37816B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
@@ -97,20 +97,17 @@
 								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{A2F62A0B-546D-4B64-AE9A-252030FFEF0A}">
-							<Children/>
-						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 				<Event Id="1065593839" Name="GS1_2" ObjectPath="\Events\Default Work Unit\GS1_2" DurationType="OneShot" DurationMin="0.343877" DurationMax="0.408940">
 					<IncludedMemoryFiles>
 						<File Id="258922555" Language="SFX">
 							<ShortName>GunShot2_RuneFinder.wav</ShortName>
-							<Path>SFX\GunShot2_RuneFinder_2CE66A1E.wem</Path>
+							<Path>SFX\GunShot2_RuneFinder_5D02122D.wem</Path>
 						</File>
 						<File Id="744842112" Language="SFX">
 							<ShortName>GunShot1_RuneFinder.wav</ShortName>
-							<Path>SFX\GunShot1_RuneFinder_2CE66A1E.wem</Path>
+							<Path>SFX\GunShot1_RuneFinder_5D02122D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -121,11 +118,11 @@
 					<IncludedMemoryFiles>
 						<File Id="270247649" Language="SFX">
 							<ShortName>GunShot6_RuneFinder.wav</ShortName>
-							<Path>SFX\GunShot6_RuneFinder_2CE66A1E.wem</Path>
+							<Path>SFX\GunShot6_RuneFinder_5D02122D.wem</Path>
 						</File>
 						<File Id="820214985" Language="SFX">
 							<ShortName>GunShot3_RuneFinder.wav</ShortName>
-							<Path>SFX\GunShot3_RuneFinder_2CE66A1E.wem</Path>
+							<Path>SFX\GunShot3_RuneFinder_5D02122D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -136,11 +133,11 @@
 					<IncludedMemoryFiles>
 						<File Id="116574228" Language="SFX">
 							<ShortName>GunShot5_RuneFinder.wav</ShortName>
-							<Path>SFX\GunShot5_RuneFinder_2CE66A1E.wem</Path>
+							<Path>SFX\GunShot5_RuneFinder_5D02122D.wem</Path>
 						</File>
 						<File Id="740809723" Language="SFX">
 							<ShortName>GunShot4_RuneFinder.wav</ShortName>
-							<Path>SFX\GunShot4_RuneFinder_2CE66A1E.wem</Path>
+							<Path>SFX\GunShot4_RuneFinder_5D02122D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -151,11 +148,11 @@
 					<IncludedMemoryFiles>
 						<File Id="700191065" Language="SFX">
 							<ShortName>GunShot7_RuneFinder.wav</ShortName>
-							<Path>SFX\GunShot7_RuneFinder_2CE66A1E.wem</Path>
+							<Path>SFX\GunShot7_RuneFinder_5D02122D.wem</Path>
 						</File>
 						<File Id="960835180" Language="SFX">
 							<ShortName>GunShot8_RuneFinder.wav</ShortName>
-							<Path>SFX\GunShot8_RuneFinder_2CE66A1E.wem</Path>
+							<Path>SFX\GunShot8_RuneFinder_5D02122D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -174,7 +171,7 @@
 					<IncludedMemoryFiles>
 						<File Id="704451003" Language="SFX">
 							<ShortName>Spawn_Azteca.wav</ShortName>
-							<Path>SFX\Spawn_Azteca_10C4C929.wem</Path>
+							<Path>SFX\Spawn_Azteca_5D02122D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -203,6 +200,7 @@
 						<State Id="1522595433" Name="Credits_Music" ObjectPath="\States\Default Work Unit\Music\Credits_Music"/>
 						<State Id="221232726" Name="Lose" ObjectPath="\States\Default Work Unit\Music\Lose"/>
 						<State Id="979765101" Name="Win" ObjectPath="\States\Default Work Unit\Music\Win"/>
+						<State Id="3494343696" Name="PauseMenu" ObjectPath="\States\Default Work Unit\Music\PauseMenu"/>
 					</States>
 				</StateGroup>
 			</StateGroups>

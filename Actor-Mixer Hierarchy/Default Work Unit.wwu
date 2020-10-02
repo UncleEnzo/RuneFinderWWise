@@ -173,7 +173,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+							<ObjectRef Name="Sounds_Conversion Settings" ID="{78796F7D-1053-4A36-B176-A96994FE3DBD}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Sound_Effects" ID="{1AE8CE79-0FCB-4716-BB1C-10CB08023CA1}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
