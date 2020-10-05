@@ -217,6 +217,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Hit_Azteca" ID="{35CEAB1C-DB79-4051-A09A-ADC6E3659E1A}">
+					<ChildrenList>
+						<Action Name="" ID="{68A503E9-8596-4321-811B-EF6E6E13D5C7}" ShortID="476517476">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hit_Azteca" ID="{B4BF65DC-87CF-4CC5-8E9D-5BE5431713F6}" WorkUnitID="{ADF371BF-3DFE-46B0-B10A-68C2F5425D37}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

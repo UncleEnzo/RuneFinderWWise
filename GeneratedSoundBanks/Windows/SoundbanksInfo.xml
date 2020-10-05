@@ -97,6 +97,12 @@
 								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{6F36D582-974D-4A5C-9378-4C5880014862}">
+							<Children/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A2F62A0B-546D-4B64-AE9A-252030FFEF0A}">
+							<Children/>
+						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 				<Event Id="1065593839" Name="GS1_2" ObjectPath="\Events\Default Work Unit\GS1_2" DurationType="OneShot" DurationMin="0.343877" DurationMax="0.408940">
@@ -153,6 +159,17 @@
 						<File Id="960835180" Language="SFX">
 							<ShortName>GunShot8_RuneFinder.wav</ShortName>
 							<Path>SFX\GunShot8_RuneFinder_5D02122D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="4221994299" Name="Hit_Azteca" ObjectPath="\Events\Default Work Unit\Hit_Azteca" DurationType="OneShot" DurationMin="0.648914" DurationMax="0.728381">
+					<IncludedMemoryFiles>
+						<File Id="719527846" Language="SFX">
+							<ShortName>Hit_Azteca.wav</ShortName>
+							<Path>SFX\Hit_Azteca_5D02122D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
