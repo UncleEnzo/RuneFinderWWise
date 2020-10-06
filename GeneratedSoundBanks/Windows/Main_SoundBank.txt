@@ -47,7 +47,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	562575462	CombatL1Music	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\CombatL1Music_CB37816B.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music_Switch\CombatL1Music\CombatL1Music\CombatL1Music		1329938
 	700191065	GunShot7_RuneFinder	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\GunShot7_RuneFinder_5D02122D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS7_8\GunShot7_RuneFinder		192064
 	704451003	SpawnAzteca_Combat(2)	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\Spawn_Azteca_5D02122D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Azteca\SpawnAzteca_Combat(2)		336064
-	719527846	Hit_Azteca	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\Hit_Azteca_5D02122D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Azteca\Hit_Azteca		132064
+	719527846	Hit_Azteca	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\Hit_Azteca_5D02122D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Azteca\Hit_Azteca		72064
 	740809723	GunShot4_RuneFinder	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\GunShot4_RuneFinder_5D02122D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS4_5\GunShot4_RuneFinder		72064
 	744842112	GunShot1_RuneFinder	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\GunShot1_RuneFinder_5D02122D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS1_2\GunShot1_RuneFinder		72064
 	820214985	GunShot3_RuneFinder	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\GunShot3_RuneFinder_5D02122D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS3_6\GunShot3_RuneFinder		96064

@@ -165,7 +165,7 @@
 						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\Reverb"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="4221994299" Name="Hit_Azteca" ObjectPath="\Events\Default Work Unit\Hit_Azteca" DurationType="OneShot" DurationMin="0.648914" DurationMax="0.728381">
+				<Event Id="4221994299" Name="Hit_Azteca" ObjectPath="\Events\Default Work Unit\Hit_Azteca" DurationType="OneShot" DurationMin="0.364324" DurationMax="0.385988">
 					<IncludedMemoryFiles>
 						<File Id="719527846" Language="SFX">
 							<ShortName>Hit_Azteca.wav</ShortName>

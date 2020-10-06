@@ -6,16 +6,16 @@
 				<SoundcasterSession Name="Test" ID="{62368563-153D-466B-B223-EDB717C33361}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="DeathAzteca_Combat_2_" ID="{D6C2F3A5-B9C5-43B7-A6E5-963D02990EFE}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}"/>
+							<ObjectRef Name="SpawnAzteca_Combat_2_" ID="{4203F270-8720-4B46-BDD4-477EEEA6050C}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Hit_Azteca" ID="{35CEAB1C-DB79-4051-A09A-ADC6E3659E1A}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}"/>
-							<Position X="0" Y="1"/>
+							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="SpawnAzteca_Combat_2_" ID="{4203F270-8720-4B46-BDD4-477EEEA6050C}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}"/>
-							<Position X="1" Y="0"/>
+							<ObjectRef Name="DeathAzteca_Combat_2_" ID="{D6C2F3A5-B9C5-43B7-A6E5-963D02990EFE}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}"/>
+							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="GS7_8" ID="{F3E035CF-5262-4DEA-816C-8F6EFD3CC436}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}"/>
