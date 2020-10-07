@@ -146,6 +146,13 @@
 								</Property>
 							</PropertyList>
 						</Bus>
+						<AuxBus Name="RoomVerb" ID="{AF60D27F-8FE2-4689-BCCA-A10035902DD1}">
+							<ReferenceList>
+								<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

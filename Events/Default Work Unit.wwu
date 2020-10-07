@@ -228,6 +228,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Footsteps_Main_Character" ID="{75636E3B-AF9E-48C0-90BC-09C71E5BF650}">
+					<ChildrenList>
+						<Action Name="" ID="{96DE68D3-F8A1-4776-A075-B8449B0C31A9}" ShortID="364716607">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{B60ABB75-0370-4EC9-A102-366B00D77BA8}" WorkUnitID="{ADF371BF-3DFE-46B0-B10A-68C2F5425D37}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

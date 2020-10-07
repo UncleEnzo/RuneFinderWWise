@@ -231,7 +231,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -268,18 +268,12 @@
 								<ModifierInfo>
 									<Modifier Name="" ID="{ECB0FF5C-CA26-44B5-AB70-7B24EDEBDFDD}">
 										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
 											<Property Name="Max" Type="Real64" Value="150"/>
 											<Property Name="Min" Type="Real64" Value="-150"/>
 										</PropertyList>
 									</Modifier>
 								</ModifierInfo>
 							</ModifierList>
-						</Property>
-						<Property Name="UserAuxSendVolume0" Type="Real64">
-							<ValueList>
-								<Value>-13</Value>
-							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -289,12 +283,24 @@
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Sound_Effects" ID="{1AE8CE79-0FCB-4716-BB1C-10CB08023CA1}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
 						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Reverb" ID="{29AFAC22-4163-4987-B96A-C1D3D1133DAC}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
-						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="GS4_5" ID="{FCC0F2B8-C884-4649-B811-F4BD933D72F3}" ShortID="633849174">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{023FCA67-057E-45CF-9CF3-9F850DD955DC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
@@ -371,6 +377,21 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="GS1_2" ID="{85F6FF1A-412A-4E83-B004-6930C65970D5}" ShortID="849436008">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1746FC4F-E2E2-41CB-8A09-4BBBEE87A21F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
@@ -447,6 +468,21 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="GS3_6" ID="{4A65ABB1-317B-4933-AF5A-931FA010FF73}" ShortID="856658266">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4D6796A0-E21C-44DF-833F-6927874CC7BB}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
@@ -536,6 +572,25 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="GS7_8" ID="{938C3E51-25A5-428A-93CD-A5AEF495E9DB}" ShortID="1005068573">
 							<PropertyList>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{30D85C92-7455-495C-B6EA-7548518AB39B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-2</Value>
@@ -548,6 +603,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb" ID="{29AFAC22-4163-4987-B96A-C1D3D1133DAC}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -597,6 +655,198 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<SwitchContainer Name="Footsteps" ID="{B60ABB75-0370-4EC9-A102-366B00D77BA8}" ShortID="356151061">
+							<PropertyList>
+								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0E056FB8-C481-46B4-8E8A-1F28D93E9770}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{AFE59EE8-80EF-46B3-9938-A0C7EEEF2B50}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Sounds_Mono" ID="{24CA1147-6B31-46EB-9126-38FFC532DC17}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Stone" ID="{1ACFF7E8-0E56-4FF9-9B52-D52D1D5D44AD}" WorkUnitID="{1B5893D0-E873-44EE-A57F-631C24E595D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Sound_Effects" ID="{1AE8CE79-0FCB-4716-BB1C-10CB08023CA1}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Footsteps" ID="{CC72357B-A8D3-4851-82F6-19194EC95CBA}" WorkUnitID="{1B5893D0-E873-44EE-A57F-631C24E595D7}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb" ID="{29AFAC22-4163-4987-B96A-C1D3D1133DAC}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Stone" ID="{72B0AB34-6F68-40AC-B4E1-540D8C4D6FAF}" ShortID="983325920">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Stone_F_1" ID="{6D7156AA-ED0C-42E2-B631-B83274DF63D5}" ShortID="703367232">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone_F_1" ID="{1467BE11-60AA-419C-9FBA-808670F1D87E}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_F_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="894896129"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone_F_1" ID="{1467BE11-60AA-419C-9FBA-808670F1D87E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone_F_2" ID="{4F83E18F-4749-48EB-8DA9-03C9F63930D8}" ShortID="152169764">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone_F_2" ID="{90D65D0C-F4DD-4860-9A9E-58CB53C12EF1}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_F_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="220558304"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone_F_2" ID="{90D65D0C-F4DD-4860-9A9E-58CB53C12EF1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone_F_3" ID="{9BAD699A-0CE9-48CB-AA0A-1C4E8FC0AEFA}" ShortID="675337967">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone_F_3" ID="{B0231817-68EF-4456-8123-840A2D66A02C}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_F_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="747336436"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone_F_3" ID="{B0231817-68EF-4456-8123-840A2D66A02C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone_F_4" ID="{BB2B9BFD-15AD-4079-8D74-DFED27B556AA}" ShortID="460084803">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone_F_4" ID="{80332D89-FAAF-499D-8FC7-69CCDF2A862B}">
+													<Language>SFX</Language>
+													<AudioFile>Stone_F_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="153335978"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone_F_4" ID="{80332D89-FAAF-499D-8FC7-69CCDF2A862B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{4B0FD581-3409-4656-9BF2-F629BF722656}"/>
+							</PositioningInfo>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Stone" ID="{72B0AB34-6F68-40AC-B4E1-540D8C4D6FAF}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Stone" ID="{1ACFF7E8-0E56-4FF9-9B52-D52D1D5D44AD}"/>
+										<ItemList>
+											<ItemRef Name="Stone" ID="{72B0AB34-6F68-40AC-B4E1-540D8C4D6FAF}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{B6345BAF-D679-4083-BE00-97C64748FAA6}"/>

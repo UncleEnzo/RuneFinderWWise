@@ -17,6 +17,7 @@
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
 				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\Reverb"/>
+				<AuxBus Id="1572913279" Name="RoomVerb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\RoomVerb"/>
 			</IncludedAuxBusses>
 			<GameParameters>
 				<GameParameter Id="942663168" Name="UI_Effects" ObjectPath="\Game Parameters\Default Work Unit\UI_Effects"/>
@@ -37,6 +38,40 @@
 							<Path>SFX\Death_Azteca_3F2574E8.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3080765390" Name="Footsteps_Main_Character" ObjectPath="\Events\Default Work Unit\Footsteps_Main_Character" DurationType="OneShot" DurationMin="0.339205" DurationMax="0.662164">
+					<IncludedMemoryFiles>
+						<File Id="153335978" Language="SFX">
+							<ShortName>Stone_F_4.wav</ShortName>
+							<Path>SFX\Stone_F_4_C50CE570.wem</Path>
+						</File>
+						<File Id="220558304" Language="SFX">
+							<ShortName>Stone_F_2.wav</ShortName>
+							<Path>SFX\Stone_F_2_C50CE570.wem</Path>
+						</File>
+						<File Id="747336436" Language="SFX">
+							<ShortName>Stone_F_3.wav</ShortName>
+							<Path>SFX\Stone_F_3_C50CE570.wem</Path>
+						</File>
+						<File Id="894896129" Language="SFX">
+							<ShortName>Stone_F_1.wav</ShortName>
+							<Path>SFX\Stone_F_1_C50CE570.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{1ACFF7E8-0E56-4FF9-9B52-D52D1D5D44AD}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{1ACFF7E8-0E56-4FF9-9B52-D52D1D5D44AD}">
+							<Media>
+								<File Id="894896129"/>
+								<File Id="220558304"/>
+								<File Id="747336436"/>
+								<File Id="153335978"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 					<AuxBusSends>
 						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\Reverb"/>
 					</AuxBusSends>
@@ -221,6 +256,13 @@
 					</States>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="Footsteps" ObjectPath="\Switches\Default Work Unit\Footsteps">
+					<Switches>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Footsteps\Stone"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
