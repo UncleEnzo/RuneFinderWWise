@@ -12,6 +12,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2139655677	GS3_6			\Default Work Unit\GS3_6	
 	2140096933	GS4_5			\Default Work Unit\GS4_5	
 	2281661284	Reset_Volume_Master			\Default Work Unit\Reset_Volume_Master	
+	2569219689	Spear_Throw			\Default Work Unit\Spear_Throw	
 	3080765390	Footsteps_Main_Character			\Default Work Unit\Footsteps_Main_Character	
 	3563121554	DeathAzteca_Combat_2_			\Default Work Unit\DeathAzteca_Combat_2_	
 	3738323421	Stop_Game_Music_Switch			\Default Work Unit\Stop_Game_Music_Switch	
@@ -45,6 +46,7 @@ State	ID	Name	State Group			Notes
 	3494343696	PauseMenu	Music			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	85329079	Spear_Throw_1	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\Spear_Throw_1_5D02122D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Azteca\Spear_Throw\Spear_Throw_1		102064
 	116574228	GunShot5_RuneFinder	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\GunShot5_RuneFinder_5D02122D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS4_5\GunShot5_RuneFinder		72064
 	153335978	Stone_F_4	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\Stone_F_4_C50CE570.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\Footsteps\Stone\Stone_F_4		31760
 	220558304	Stone_F_2	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\Stone_F_2_C50CE570.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\Footsteps\Stone\Stone_F_2		44164
@@ -53,6 +55,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	330486091	DeathAzteca_Combat(2)	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\Death_Azteca_3F2574E8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Azteca\DeathAzteca_Combat(2)		329548
 	375305240	StartMenuMusic	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\StartMenuMusic_CB37816B.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music_Switch\StartMenuMusic\StartMenuMusic\StartMenuMusic		774710
 	405158017	TheNevel_Aztec_Sketch	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\TheNevel_Aztec_Sketch_CB37816B.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music_Switch\ExplorationL1Music\ExplorationL1Music\TheNevel_Aztec_Sketch		1546298
+	448515182	Spear_Throw_3	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\Spear_Throw_3_5D02122D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Azteca\Spear_Throw\Spear_Throw_3		101876
 	562575462	CombatL1Music	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\CombatL1Music_CB37816B.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music_Switch\CombatL1Music\CombatL1Music\CombatL1Music		1329938
 	700191065	GunShot7_RuneFinder	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\GunShot7_RuneFinder_5D02122D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS7_8\GunShot7_RuneFinder		192064
 	704451003	SpawnAzteca_Combat(2)	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\Spawn_Azteca_5D02122D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Azteca\SpawnAzteca_Combat(2)		336064
@@ -60,6 +63,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	740809723	GunShot4_RuneFinder	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\GunShot4_RuneFinder_5D02122D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS4_5\GunShot4_RuneFinder		72064
 	744842112	GunShot1_RuneFinder	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\GunShot1_RuneFinder_5D02122D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS1_2\GunShot1_RuneFinder		72064
 	747336436	Stone_F_3	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\Stone_F_3_C50CE570.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\Footsteps\Stone\Stone_F_3		34516
+	777054420	Spear_Throw_2	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\Spear_Throw_2_5D02122D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Azteca\Spear_Throw\Spear_Throw_2		100588
 	820214985	GunShot3_RuneFinder	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\GunShot3_RuneFinder_5D02122D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\GS3_6\GunShot3_RuneFinder		96064
 	894896129	Stone_F_1	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\Stone_F_1_C50CE570.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_Character\Footsteps\Stone\Stone_F_1		55188
 	956761082	InventoryL1Music	E:\FlowAD\Sound Design\GitHub\RuneFinderWwise\.cache\Windows\SFX\InventoryL1Music_CB37816B.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music_Switch\InventoryL1Music\InventoryL1Music\InventoryL1Music		1063966

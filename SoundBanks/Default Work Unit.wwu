@@ -9,6 +9,7 @@
 						<ObjectRef Name="GS4_5" ID="{BE634EDC-0839-40FE-BB9C-82EE2DE978DB}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Reset_Volume_Master" ID="{80E96FCF-769A-41DE-81E1-1E3ACCB09EA2}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DeathAzteca_Combat_2_" ID="{D6C2F3A5-B9C5-43B7-A6E5-963D02990EFE}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Spear_Throw" ID="{381C6558-EB44-44CD-A891-50EC41E455D6}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Reset_Volume_UI_Effects" ID="{BC8C2236-FA6D-457C-B89D-835DA767FA00}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Volume_UI_Effects" ID="{627B3368-41DF-4609-B70E-2121EAFBC19E}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Volume_Background_Music" ID="{DFB55DCD-2F3B-4663-B852-9BAC8F1CFB49}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>

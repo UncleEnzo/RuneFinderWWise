@@ -3,11 +3,12 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{6C7AB9E9-37B8-4814-BB4A-D0D85439AE76}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="E:\FlowAD\Sound Design\Ableton\RuneFinder Project\Output\Footsteps\Stone\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="E:\FlowAD\Sound Design\Ableton\RuneFinder Project\Output\"/>
 				<Property Name="Event Action List\{0A750B67-45B6-47DB-9F93-BD7228279538}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{27CE621F-20F0-42E2-A371-47871F736646}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2F5F122D-F0B2-4B02-BE3C-73042E83968D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{35CEAB1C-DB79-4051-A09A-ADC6E3659E1A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{381C6558-EB44-44CD-A891-50EC41E455D6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{389F4F17-4ED8-4825-9936-CDAC5D04790C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4203F270-8720-4B46-BDD4-477EEEA6050C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{45286D1A-D82A-4F38-8F69-DB5D70D131B8}\x64_Expand States" Type="string" Value=""/>
@@ -69,7 +70,7 @@
 				<Property Name="Music Transition List\{C2774A6E-EBB3-4F6A-8A47-E379A42D70D8}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{0601BFD6-89C3-4AE8-A6DA-791A2A83AEA2}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
@@ -87,7 +88,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ87vujkcecEJHpiPNINxqRCw="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="2f0CtoqSV0SgIHRa/dEbRb9x863+PbBGsQpowvVCXTfriEzeJauWSrltXxgJCc+wdbsKtnADyU6hAjZrANd7qA=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="2f0CtoqSV0SgIHRa/dEbRcYS93cQ1elEv/vZFmSKC3C/cfOt/j2wRrEKaML1Ql0364hM3iWrlkq5bV8YCQnPsHW7CrZwA8lOoQI2awDXe6g="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="bg7mjAokUEm1vghgyK4zdA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="0JNYG3Po7kSlf2McJOWV13s1cszTqFFIgvYZGU7JXLo="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="iR72y1BPU0S2Lm04p92KwkdWgWJACrlNoo6SqUbDl9wy0jwymdBkTplAe0QAYoR/"/>
@@ -131,7 +132,7 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
-				<Property Name="SoundEngine\BusMapping\{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Type="string" Value="{897DCF3B-1359-4C31-BD2C-D41FF5E12D8E}3790326828"/>
+				<Property Name="SoundEngine\BusMapping\{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Type="string" Value="{897DCF3B-1359-4C31-BD2C-D41FF5E12D8E}31623075"/>
 				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{62368563-153D-466B-B223-EDB717C33361}"/>
 			</PropertyList>
 		</UserProjectSettings>

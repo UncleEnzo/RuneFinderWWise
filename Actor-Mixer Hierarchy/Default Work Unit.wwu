@@ -48,9 +48,6 @@
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Sound_Effects" ID="{1AE8CE79-0FCB-4716-BB1C-10CB08023CA1}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
 						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Reverb" ID="{29AFAC22-4163-4987-B96A-C1D3D1133DAC}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
-						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="DeathAzteca_Combat(2)" ID="{9113AA80-7490-4C96-818B-0EBFD7BA54EC}" ShortID="585066071">
@@ -62,6 +59,7 @@
 										<Value>3</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -80,6 +78,11 @@
 										<Value>True</Value>
 									</ValueList>
 								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>2</Value>
@@ -92,6 +95,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb" ID="{29AFAC22-4163-4987-B96A-C1D3D1133DAC}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -259,6 +265,171 @@
 								<ActiveSource Name="Hit_Azteca" ID="{683E99CD-F6AC-4770-8C5A-1BC6800C5502}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Spear_Throw" ID="{77F712C6-D510-44E9-BFFB-D916648A0B70}" ShortID="338276905">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{76E42439-D6C7-4872-BE95-08A0BE1ADC18}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{92007674-6C71-4B12-AFE3-D9BA4D0D769D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="RoomVerb" ID="{AF60D27F-8FE2-4689-BCCA-A10035902DD1}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Spear_Throw_1" ID="{8AAC551D-B284-433B-8D91-39654816800C}" ShortID="739431472">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="52"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Sounds_Conversion Settings" ID="{78796F7D-1053-4A36-B176-A96994FE3DBD}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Sound_Effects" ID="{1AE8CE79-0FCB-4716-BB1C-10CB08023CA1}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb" ID="{29AFAC22-4163-4987-B96A-C1D3D1133DAC}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Spear_Throw_1" ID="{6D70F75D-30F2-44B6-9D51-659BF8838988}">
+											<Language>SFX</Language>
+											<AudioFile>Spear_Throw_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="85329079"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Spear_Throw_1" ID="{6D70F75D-30F2-44B6-9D51-659BF8838988}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Spear_Throw_2" ID="{8889E57E-3D7E-41B3-8CC1-2643A6F656C3}" ShortID="139447793">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="52"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Sounds_Conversion Settings" ID="{78796F7D-1053-4A36-B176-A96994FE3DBD}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Sound_Effects" ID="{1AE8CE79-0FCB-4716-BB1C-10CB08023CA1}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb" ID="{29AFAC22-4163-4987-B96A-C1D3D1133DAC}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Spear_Throw_2" ID="{288BE3D9-25E0-4432-9D13-2D049AD09471}">
+											<Language>SFX</Language>
+											<AudioFile>Spear_Throw_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="777054420"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Spear_Throw_2" ID="{288BE3D9-25E0-4432-9D13-2D049AD09471}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Spear_Throw_3" ID="{046E317C-074D-4269-97B8-FFBD44C3FFFF}" ShortID="1033012287">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="52"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Sounds_Conversion Settings" ID="{78796F7D-1053-4A36-B176-A96994FE3DBD}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Sound_Effects" ID="{1AE8CE79-0FCB-4716-BB1C-10CB08023CA1}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb" ID="{29AFAC22-4163-4987-B96A-C1D3D1133DAC}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Spear_Throw_3" ID="{ED3ABDBA-FE39-40BB-BBD9-0C19F1105B7E}">
+											<Language>SFX</Language>
+											<AudioFile>Spear_Throw_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="448515182"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Spear_Throw_3" ID="{ED3ABDBA-FE39-40BB-BBD9-0C19F1105B7E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Main_Character" ID="{B602FDD9-928A-4457-A020-745AFDD11B45}" ShortID="549051727">
@@ -724,7 +895,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>

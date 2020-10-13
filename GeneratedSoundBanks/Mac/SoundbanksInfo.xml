@@ -230,6 +230,26 @@
 						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\Reverb"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="2569219689" Name="Spear_Throw" ObjectPath="\Events\Default Work Unit\Spear_Throw" DurationType="OneShot" DurationMin="0.494177" DurationMax="0.562840">
+					<IncludedMemoryFiles>
+						<File Id="85329079" Language="SFX">
+							<ShortName>Spear_Throw_1.wav</ShortName>
+							<Path>SFX\Spear_Throw_1_5D02122D.wem</Path>
+						</File>
+						<File Id="448515182" Language="SFX">
+							<ShortName>Spear_Throw_3.wav</ShortName>
+							<Path>SFX\Spear_Throw_3_5D02122D.wem</Path>
+						</File>
+						<File Id="777054420" Language="SFX">
+							<ShortName>Spear_Throw_2.wav</ShortName>
+							<Path>SFX\Spear_Throw_2_5D02122D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\Reverb"/>
+						<AuxBus Id="1572913279" Name="RoomVerb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\RoomVerb"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="3738323421" Name="Stop_Game_Music_Switch" ObjectPath="\Events\Default Work Unit\Stop_Game_Music_Switch" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<StateGroups>

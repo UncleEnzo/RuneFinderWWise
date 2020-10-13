@@ -10,6 +10,10 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Spear_Throw" ID="{381C6558-EB44-44CD-A891-50EC41E455D6}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Hit_Azteca" ID="{35CEAB1C-DB79-4051-A09A-ADC6E3659E1A}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -38,7 +42,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="GamePlay" ID="{6F36D582-974D-4A5C-9378-4C5880014862}"/>
-						<CurrentStateRef Name="Combat_Music" ID="{CB5AE1B1-2C6E-4730-ABF3-E07B3A2ADBA6}"/>
+						<CurrentStateRef Name="Exploration_Music" ID="{735D2AFA-DC9B-4637-AB75-22809CE6F55A}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Stone" ID="{1ACFF7E8-0E56-4FF9-9B52-D52D1D5D44AD}"/>
