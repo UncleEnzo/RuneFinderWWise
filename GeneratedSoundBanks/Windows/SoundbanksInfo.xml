@@ -44,6 +44,14 @@
 				</Event>
 				<Event Id="3080765390" Name="Footsteps_Main_Character" ObjectPath="\Events\Default Work Unit\Footsteps_Main_Character" DurationType="OneShot" DurationMin="0.339205" DurationMax="0.662164">
 					<IncludedMemoryFiles>
+						<File Id="65267227" Language="SFX">
+							<ShortName>Dirt\Dirt_F_1.wav</ShortName>
+							<Path>SFX\Dirt\Dirt_F_1_C50CE570.wem</Path>
+						</File>
+						<File Id="77000286" Language="SFX">
+							<ShortName>Dirt\Dirt_F_4.wav</ShortName>
+							<Path>SFX\Dirt\Dirt_F_4_C50CE570.wem</Path>
+						</File>
 						<File Id="153335978" Language="SFX">
 							<ShortName>Stone_F_4.wav</ShortName>
 							<Path>SFX\Stone_F_4_C50CE570.wem</Path>
@@ -52,13 +60,33 @@
 							<ShortName>Stone_F_2.wav</ShortName>
 							<Path>SFX\Stone_F_2_C50CE570.wem</Path>
 						</File>
+						<File Id="351195723" Language="SFX">
+							<ShortName>Dirt\Dirt_F_8.wav</ShortName>
+							<Path>SFX\Dirt\Dirt_F_8_C50CE570.wem</Path>
+						</File>
+						<File Id="540461453" Language="SFX">
+							<ShortName>Dirt\Dirt_F_2.wav</ShortName>
+							<Path>SFX\Dirt\Dirt_F_2_C50CE570.wem</Path>
+						</File>
+						<File Id="541213712" Language="SFX">
+							<ShortName>Dirt\Dirt_F_9.wav</ShortName>
+							<Path>SFX\Dirt\Dirt_F_9_C50CE570.wem</Path>
+						</File>
 						<File Id="747336436" Language="SFX">
 							<ShortName>Stone_F_3.wav</ShortName>
 							<Path>SFX\Stone_F_3_C50CE570.wem</Path>
 						</File>
+						<File Id="865152031" Language="SFX">
+							<ShortName>Dirt\Dirt_F_7.wav</ShortName>
+							<Path>SFX\Dirt\Dirt_F_7_C50CE570.wem</Path>
+						</File>
 						<File Id="894896129" Language="SFX">
 							<ShortName>Stone_F_1.wav</ShortName>
 							<Path>SFX\Stone_F_1_C50CE570.wem</Path>
+						</File>
+						<File Id="953972315" Language="SFX">
+							<ShortName>Dirt\Dirt_F_3.wav</ShortName>
+							<Path>SFX\Dirt\Dirt_F_3_C50CE570.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{1ACFF7E8-0E56-4FF9-9B52-D52D1D5D44AD}</DefaultSwitchValue>
@@ -71,9 +99,21 @@
 								<File Id="153335978"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{81B97DCA-2D35-4403-927C-8D140B79128D}">
+							<Media>
+								<File Id="65267227"/>
+								<File Id="540461453"/>
+								<File Id="953972315"/>
+								<File Id="77000286"/>
+								<File Id="865152031"/>
+								<File Id="351195723"/>
+								<File Id="541213712"/>
+							</Media>
+						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
 						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\Reverb"/>
+						<AuxBus Id="1572913279" Name="RoomVerb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\RoomVerb"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="536353522" Name="Game_Music_Switch" ObjectPath="\Events\Default Work Unit\Game_Music_Switch" DurationType="Infinite">
@@ -219,6 +259,17 @@
 				<Event Id="1260445465" Name="Set_Volume_Master" ObjectPath="\Events\Default Work Unit\Set_Volume_Master" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4147926211" Name="Set_Volume_Sound_Effects" ObjectPath="\Events\Default Work Unit\Set_Volume_Sound_Effects" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="848918190" Name="Set_Volume_UI_Effects" ObjectPath="\Events\Default Work Unit\Set_Volume_UI_Effects" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2401049923" Name="ShotGun_Placeholder" ObjectPath="\Events\Default Work Unit\ShotGun_Placeholder" DurationType="OneShot" DurationMin="0.589921" DurationMax="0.662164">
+					<IncludedMemoryFiles>
+						<File Id="904162668" Language="SFX">
+							<ShortName>ShotGun_Placeholder.wav</ShortName>
+							<Path>SFX\ShotGun_Placeholder_5D02122D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master_Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="693798761" Name="SpawnAzteca_Combat_2_" ObjectPath="\Events\Default Work Unit\SpawnAzteca_Combat_2_" DurationType="OneShot" DurationMin="1.651780" DurationMax="1.854061">
 					<IncludedMemoryFiles>
 						<File Id="704451003" Language="SFX">
@@ -280,6 +331,7 @@
 				<SwitchGroup Id="2385628198" Name="Footsteps" ObjectPath="\Switches\Default Work Unit\Footsteps">
 					<Switches>
 						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Footsteps\Stone"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Footsteps\Dirt"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>

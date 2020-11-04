@@ -895,7 +895,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-13</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -998,6 +998,188 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Dirt" ID="{877D9A0E-F75A-4E18-A4C2-D85ABD29AFF6}" ShortID="307445304">
+									<PropertyList>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="RoomVerb" ID="{AF60D27F-8FE2-4689-BCCA-A10035902DD1}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Dirt_F_1" ID="{FADCA27A-1754-4AAB-9E33-F1F880E5F97C}" ShortID="973117944">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dirt_F_1" ID="{137B1061-A067-43E4-A1BC-F118427997B8}">
+													<Language>SFX</Language>
+													<AudioFile>Dirt\Dirt_F_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="65267227"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dirt_F_1" ID="{137B1061-A067-43E4-A1BC-F118427997B8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dirt_F_2" ID="{E0FAA1AA-4502-4A2B-B675-E6BD84D5CCA3}" ShortID="736345125">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dirt_F_2" ID="{CFA330C6-8947-4C54-9312-91FC5BD6396B}">
+													<Language>SFX</Language>
+													<AudioFile>Dirt\Dirt_F_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="540461453"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dirt_F_2" ID="{CFA330C6-8947-4C54-9312-91FC5BD6396B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dirt_F_3" ID="{FB9130C4-8159-4A85-84D4-A5AB0A45DED3}" ShortID="776745363">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dirt_F_3" ID="{A5C3D311-1CA0-476D-B605-F31FF7222FA8}">
+													<Language>SFX</Language>
+													<AudioFile>Dirt\Dirt_F_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="953972315"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dirt_F_3" ID="{A5C3D311-1CA0-476D-B605-F31FF7222FA8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dirt_F_4" ID="{01167351-9F50-460B-98D7-96C3252B25EE}" ShortID="762478643">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dirt_F_4" ID="{6F615678-2A13-4737-BD89-93CD76C7696B}">
+													<Language>SFX</Language>
+													<AudioFile>Dirt\Dirt_F_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="77000286"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dirt_F_4" ID="{6F615678-2A13-4737-BD89-93CD76C7696B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dirt_F_7" ID="{1B61924B-F3EC-421B-9ED3-B2211C1E2899}" ShortID="853598196">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dirt_F_7" ID="{D2417E88-E404-489D-9746-B59331D9A5D4}">
+													<Language>SFX</Language>
+													<AudioFile>Dirt\Dirt_F_7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="865152031"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dirt_F_7" ID="{D2417E88-E404-489D-9746-B59331D9A5D4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dirt_F_8" ID="{EB03CCC9-09B1-44F4-B2D5-C81EB619B3A5}" ShortID="485470468">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dirt_F_8" ID="{8D6BB195-3A66-4F02-81CA-2C4BFA60E870}">
+													<Language>SFX</Language>
+													<AudioFile>Dirt\Dirt_F_8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="351195723"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dirt_F_8" ID="{8D6BB195-3A66-4F02-81CA-2C4BFA60E870}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dirt_F_9" ID="{F6ED8694-CFAE-4E63-86C5-8AEF8160C70E}" ShortID="47404695">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dirt_F_9" ID="{5C0AE020-C193-419F-ABB0-94A6A95D90F7}">
+													<Language>SFX</Language>
+													<AudioFile>Dirt\Dirt_F_9.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="541213712"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dirt_F_9" ID="{5C0AE020-C193-419F-ABB0-94A6A95D90F7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<PositioningInfo>
 								<Panner Name="" ID="{4B0FD581-3409-4656-9BF2-F629BF722656}"/>
@@ -1005,10 +1187,19 @@
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
+										<ItemRef Name="Dirt" ID="{877D9A0E-F75A-4E18-A4C2-D85ABD29AFF6}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
 										<ItemRef Name="Stone" ID="{72B0AB34-6F68-40AC-B4E1-540D8C4D6FAF}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Dirt" ID="{81B97DCA-2D35-4403-927C-8D140B79128D}"/>
+										<ItemList>
+											<ItemRef Name="Dirt" ID="{877D9A0E-F75A-4E18-A4C2-D85ABD29AFF6}"/>
+										</ItemList>
+									</Grouping>
 									<Grouping>
 										<SwitchRef Name="Stone" ID="{1ACFF7E8-0E56-4FF9-9B52-D52D1D5D44AD}"/>
 										<ItemList>
@@ -1018,6 +1209,67 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
+						<Sound Name="ShotGun_Placeholder" ID="{6776AA5D-4219-4AB4-BFF7-91410191CAE3}" ShortID="149307892">
+							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{61703FF2-B91F-4BAD-AB59-C08C91206561}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Music_Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F786758-2F03-4DAB-B645-262D8DA22D86}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb" ID="{29AFAC22-4163-4987-B96A-C1D3D1133DAC}" WorkUnitID="{478EEEBB-701E-4742-A623-CD20DC6A442C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ShotGun_Placeholder" ID="{0DC4F2AB-0310-44DC-9003-7C8579F1A3F7}">
+									<Language>SFX</Language>
+									<AudioFile>ShotGun_Placeholder.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="904162668"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ShotGun_Placeholder" ID="{0DC4F2AB-0310-44DC-9003-7C8579F1A3F7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{B6345BAF-D679-4083-BE00-97C64748FAA6}"/>

@@ -250,6 +250,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="ShotGun_Placeholder" ID="{1E3C692A-A775-4A4C-9EF8-748B9934E8FD}">
+					<ChildrenList>
+						<Action Name="" ID="{F2EF31DD-0C5F-45A0-A72E-4DC66271D1C4}" ShortID="58724086">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShotGun_Placeholder" ID="{6776AA5D-4219-4AB4-BFF7-91410191CAE3}" WorkUnitID="{ADF371BF-3DFE-46B0-B10A-68C2F5425D37}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

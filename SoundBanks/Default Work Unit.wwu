@@ -15,6 +15,7 @@
 						<ObjectRef Name="Set_Volume_Background_Music" ID="{DFB55DCD-2F3B-4663-B852-9BAC8F1CFB49}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Game_Music_Switch" ID="{389F4F17-4ED8-4825-9936-CDAC5D04790C}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps_Main_Character" ID="{75636E3B-AF9E-48C0-90BC-09C71E5BF650}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ShotGun_Placeholder" ID="{1E3C692A-A775-4A4C-9EF8-748B9934E8FD}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Volume_Sound_Effects" ID="{2F5F122D-F0B2-4B02-BE3C-73042E83968D}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Game_Music_Switch" ID="{97A8E8C8-04DB-4B32-89EB-175F4C9A5FAD}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Volume_Master" ID="{E4C04693-813D-4B34-8911-2204A28D2D85}" WorkUnitID="{8CE60E6E-240A-4950-B5BE-0860C8AE3374}" Origin="Manual" Filter="7"/>

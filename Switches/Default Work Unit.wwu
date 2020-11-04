@@ -6,6 +6,7 @@
 				<SwitchGroup Name="Footsteps" ID="{CC72357B-A8D3-4851-82F6-19194EC95CBA}">
 					<ChildrenList>
 						<Switch Name="Stone" ID="{1ACFF7E8-0E56-4FF9-9B52-D52D1D5D44AD}"/>
+						<Switch Name="Dirt" ID="{81B97DCA-2D35-4403-927C-8D140B79128D}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
